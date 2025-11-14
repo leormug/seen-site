@@ -11,8 +11,8 @@
       --surface: #ffffff;
       --text-main: #0f1b33;
       --text-muted: #5f6b7a;
-      --accent: #2563eb; /* clean modern blue */
-      --accent-hover: #1e4fc7;
+      --accent: rgba(166, 55, 11, 1);
+      --accent-hover: rgba(130, 40, 5, 1);
       --border-subtle: #dce3ee;
       --radius-lg: 20px;
     }
@@ -50,6 +50,18 @@
       }
     }
 
+    .logo-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+
+    .logo-wrap img {
+      height: 40px;
+      width: auto;
+      display: block;
+    }
+
     h1, h2, h3 {
       margin: 0;
       font-weight: 600;
@@ -73,6 +85,7 @@
       font-weight: 500;
       color: var(--text-muted);
       margin-bottom: 18px;
+      white-space: pre-line;
     }
 
     p {
@@ -146,7 +159,7 @@
       background: var(--accent);
       color: #ffffff;
       border: 1px solid var(--accent);
-      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.28);
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.24);
     }
 
     .buttons a:first-child:hover {
@@ -163,7 +176,7 @@
     .buttons a:last-child:hover {
       border-color: var(--accent);
       color: var(--accent);
-      background: #eef2ff;
+      background: rgba(166, 55, 11, 0.06);
     }
 
     .buttons a:active {
@@ -203,6 +216,11 @@
 
 <body>
   <div class="page">
+
+    <div class="logo-wrap">
+      <!-- Update src to the actual logo file name/path you’re using -->
+      <img src="seen-logo.png" alt="SEEN logo">
+    </div>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -292,7 +310,7 @@ Always forget to mention what matters most?
     <!-- Footer -->
     <footer>
       © 2025 SEEN. All rights reserved.
-      <a href="mailto:">new_email@gmail.com</a><br>
+      <a href="mailto:new_email@gmail.com">new_email@gmail.com</a><br>
       SEEN is a patient communication tool and does not provide medical advice.
     </footer>
 
