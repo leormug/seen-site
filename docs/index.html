@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SEEN +tagline</title>
+  <title>SEEN</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
     :root {
-      --bg: #f9fafb;
+      --bg: #f3f6fc;
       --surface: #ffffff;
-      --text-main: #0f172a;
-      --text-muted: #6b7280;
-      --accent: #ea580c; /* warm, modern orange */
-      --border-subtle: #e5e7eb;
+      --text-main: #0f1b33;
+      --text-muted: #5f6b7a;
+      --accent: #2563eb; /* clean modern blue */
+      --accent-hover: #1e4fc7;
+      --border-subtle: #dce3ee;
       --radius-lg: 20px;
     }
 
@@ -39,7 +40,7 @@
       background: var(--surface);
       border-radius: var(--radius-lg);
       padding: 28px 24px 24px;
-      border: 1px solid rgba(148, 163, 184, 0.25);
+      border: 1px solid rgba(180, 195, 215, 0.35);
     }
 
     @media (max-width: 640px) {
@@ -77,13 +78,13 @@
     p {
       margin: 8px 0;
       font-size: 0.98rem;
-      color: #111827;
+      color: #0f172a;
     }
 
     ul {
       margin: 8px 0 0 1.1rem;
       padding: 0;
-      color: #111827;
+      color: #0f172a;
       font-size: 0.98rem;
     }
 
@@ -95,10 +96,6 @@
       border-bottom: 1px solid var(--border-subtle);
       padding-bottom: 18px;
       margin-bottom: 12px;
-    }
-
-    .hero h1 {
-      color: var(--text-main);
     }
 
     .hero h2 {
@@ -149,12 +146,12 @@
       background: var(--accent);
       color: #ffffff;
       border: 1px solid var(--accent);
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);
+      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.28);
     }
 
     .buttons a:first-child:hover {
-      background: #c2410c;
-      border-color: #c2410c;
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
     }
 
     .buttons a:last-child {
@@ -166,7 +163,7 @@
     .buttons a:last-child:hover {
       border-color: var(--accent);
       color: var(--accent);
-      background: #fff7ed;
+      background: #eef2ff;
     }
 
     .buttons a:active {
@@ -192,6 +189,15 @@
       color: var(--text-muted);
       line-height: 1.4;
     }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 
@@ -200,14 +206,16 @@
 
     <!-- Hero Section -->
     <section class="hero">
-      <h1>SEEN: Tagline</h1>
+      <h1>SEEN: Be heard. Be believed.</h1>
 
-      <h3>Been told “it’s all in your head” one too many times?<br>
-      Tired of doctors who don’t listen?</h3>
+      <h3>Been told “it’s all in your head” one too many times?
+Tired of doctors who don’t listen?
+Always forget to mention what matters most?
+</h3>
 
-      <h2>Be seen. Be believed. Be helped.</h2>
+      <h2>There’s something that changes everything.</h2>
 
-      <p>Walk into appointments with a one-page summary that changes everything. Doctors listen when you give them what they need.</p>
+      <p>Walk into appointments with a one-page summary that makes doctors sit up and pay attention. It sounds simple—but it’s transformative.</p>
     </section>
 
     <!-- Features Section -->
@@ -283,7 +291,8 @@
 
     <!-- Footer -->
     <footer>
-      © 2024 SEEN. All rights reserved. finally.taken.seriously@gmail.com<br>
+      © 2025 SEEN. All rights reserved.
+      <a href="mailto:">new_email@gmail.com</a><br>
       SEEN is a patient communication tool and does not provide medical advice.
     </footer>
 
