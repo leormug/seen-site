@@ -217,11 +217,25 @@
 <body>
   <div class="page">
 
+ <!-- Logo -->
     <div class="logo-wrap">
-      
-      <img src="assets/seen-logo.png" alt="SEEN logo">
-" alt="SEEN logo">
-    </div>
+  <img src="assets/seen-logo.png" alt="SEEN logo">
+</div>
+
+<style>
+  .logo-wrap {
+    display: flex;
+    justify-content: flex-start; /* left align */
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .logo-wrap img {
+    height: 42px;
+    width: auto;
+  }
+</style>
+
 
     <!-- Hero Section -->
     <section class="hero">
@@ -279,7 +293,7 @@ Always forget to mention what matters most?
 
     <!-- Who It's For -->
     <section class="section">
-      <h2>You know who you are</h2>
+      <h2>Who it’s for</h2>
 
       <ul>
         <li>People with complex conditions doctors don’t understand at first glance</li>
