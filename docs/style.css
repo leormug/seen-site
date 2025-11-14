@@ -23,6 +23,32 @@ h1, h2, h3 {
   color: #111827;
 }
 
+    h1, h2, h3 {
+      margin: 0;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 3vw, 2.5rem);
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 28px;
+      margin-bottom: 8px;
+    }
+/* changed into subhead only header text */
+    h3 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+      white-space: pre-line;
+    }
+
 p {
   margin-bottom: 16px;
   font-size: 16px;
