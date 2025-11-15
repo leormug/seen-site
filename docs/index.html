@@ -19,9 +19,7 @@
       --radius-lg: 20px;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -54,8 +52,8 @@
 
     .logo-wrap {
       display: flex;
-    justify-content: flex-start; /* left align */
-    align-items: center;
+      justify-content: flex-start;
+      align-items: center;
       margin-bottom: 20px;
     }
 
@@ -65,23 +63,11 @@
       display: block;
     }
 
-    
-    p {
-      margin: 8px 0;
-      font-size: 0.98rem;
-      color: #0f172a;
-    }
+    p { margin: 8px 0; font-size: 0.98rem; color: #0f172a; }
 
-    ul {
-      margin: 8px 0 0 1.1rem;
-      padding: 0;
-      color: #0f172a;
-      font-size: 0.98rem;
-    }
+    ul { margin: 8px 0 0 1.1rem; padding: 0; color: #0f172a; font-size: 0.98rem; }
 
-    li {
-      margin-bottom: 6px;
-    }
+    li { margin-bottom: 6px; }
 
     .hero {
       border-bottom: 1px solid var(--border-subtle);
@@ -89,11 +75,7 @@
       margin-bottom: 12px;
     }
 
-    .hero h2 {
-      margin-top: 14px;
-      color: var(--accent);
-      font-weight: 600;
-    }
+    .hero h2 { margin-top: 14px; color: var(--accent); font-weight: 600; }
 
     .section {
       padding-top: 12px;
@@ -108,15 +90,14 @@
     }
 
     .buttons {
-  margin: 18px 0 6px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 24px; 
-}
+      margin: 18px 0 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
 
-
-    .buttons a {
+    .buttons button {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -124,55 +105,18 @@
       border-radius: 999px;
       font-size: 0.95rem;
       font-weight: 500;
-      text-decoration: none;
       cursor: pointer;
-      transition:
-        background-color 0.16s ease,
-        color 0.16s ease,
-        border-color 0.16s ease,
-        transform 0.08s ease,
-        box-shadow 0.16s ease;
-      white-space: nowrap;
-    }
-
-    .buttons a:first-child {
+      border: none;
       background: var(--accent);
-      color: #ffffff;
-      border: 1px solid var(--accent);
+      color: #fff;
       box-shadow: 0 10px 25px rgba(15, 23, 42, 0.24);
+      transition: background-color 0.16s ease, transform 0.08s ease;
     }
 
-    .buttons a:first-child:hover {
-      background: var(--accent-hover);
-      border-color: var(--accent-hover);
-    }
+    .buttons button:hover { background: var(--accent-hover); }
+    .buttons button:active { transform: translateY(1px); box-shadow: none; }
 
-    .buttons a:last-child {
-      background: transparent;
-      color: var(--text-main);
-      border: 1px solid var(--border-subtle);
-    }
-
-    .buttons a:last-child:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-      background: rgba(166, 55, 11, 0.06);
-    }
-
-    .buttons a:active {
-      transform: translateY(1px);
-      box-shadow: none;
-    }
-
-    a {
-      color: var(--accent);
-    }
-
-    .tiny {
-      font-size: 0.76rem;
-      margin-top: 6px;
-      color: var(--text-muted);
-    }
+    .tiny { font-size: 0.76rem; margin-top: 6px; color: var(--text-muted); }
 
     footer {
       margin-top: 20px;
@@ -183,96 +127,85 @@
       line-height: 1.4;
     }
 
-    footer a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
   </style>
 </head>
 
 <body>
   <div class="page">
 
- <!-- Logo -->
+    <!-- Logo -->
     <div class="logo-wrap">
-  <img src="assets/seen-logo.png" alt="SEEN logo">
-</div>
-
+      <img src="assets/seen-logo.png" alt="SEEN logo">
+    </div>
 
     <!-- Hero Section -->
     <section class="hero">
       <h1>SEEN: Be heard. Be believed.</h1>
 
-      <h3><i>Been told “it’s all in your head” one too many times?<br>
-Tired of doctors who don’t listen?<br>
-Always forget to mention what matters most?<br><br>
+      <h3><i>
+        Been told “it’s all in your head” one too many times?<br>
+        Tired of doctors who don’t listen?<br>
+        Always forget to mention what matters most?<br><br>
         There’s something that changes everything.
-</i></h3>
+      </i></h3>
 
-      <p><b>Walk into appointments</b> with a summary that makes doctors sit up and pay attention. It sounds simple—but it’s transformative.Hand your doctor a clear, organized summary before the appointment starts.
-        Watch their demeanor shift when they see you’ve done the work for them. Your timeline, symptoms, treatments, and why you’re there—all on one page they can scan in under a minute.
-        Easy to read, impossible to ignore.</p>
+      <p><b>Walk into appointments</b> with a summary that makes doctors sit up and pay attention.
+      It sounds simple—but it’s transformative. Hand your doctor a clear, organized summary before the appointment starts.
+      Your timeline, symptoms, treatments, and why you’re there—all on one page they can scan in under a minute.
+      Easy to read, impossible to ignore.</p>
     </section>
-
 
     <!-- How It Works Section -->
     <section class="section">
       <h2>Three steps to better appointments</h2>
-
       <p><strong>1. Tell your story once</strong><br>
-      Fill in the guided form. SEEN walks you through what doctors need to know—your symptoms, timeline, treatments, and how it all affects your life.</p>
+      Fill in the guided form. SEEN walks you through what doctors need to know.</p>
 
       <p><strong>2. Print and hand it over</strong><br>
-      Print the one-page summary and bring it to your visit. Give it to your doctor at the start so they can read your full story before the appointment begins.</p>
+      Present your one-page summary at the start of your appointment.</p>
 
       <p><strong>3. Update for each visit</strong><br>
-      After the appointment, note what changed—new symptoms, medications, test results. Next time, you’re ready with an updated version.</p>
+      Add new symptoms, test results, and treatments over time.</p>
     </section>
 
     <!-- Privacy Section -->
     <section class="section">
       <h2>Your medical story stays yours</h2>
-
-      <p>Everything stays on your device. No cloud, no servers, no accounts. Works completely offline. You control what to print, share, or delete. Zero tracking or data collection.</p>
-
-      <p class="tiny">
-        SEEN helps you organize information for your medical team. It does not replace professional medical advice.
-      </p>
+      <p>Everything stays on your device. No cloud, no servers, no accounts. Works completely offline. Zero tracking or data collection.</p>
+      <p class="tiny">SEEN helps you organize information for your medical team. It does not replace professional medical advice.</p>
     </section>
 
     <!-- Who It's For -->
     <section class="section">
       <h2>Who it’s for</h2>
-
       <ul>
-        <li>People with complex conditions doctors don’t understand at first glance</li>
-        <li>Anyone who’s struggled for years to get diagnosed</li>
-        <li>Those who aren’t listened to or taken seriously by their doctors</li>
-        <li>Patients whose appointments always feel rushed</li>
-        <li>Anyone tired of watching doctors stare at screens instead of listening to you</li>
+        <li>People with complex conditions</li>
+        <li>Anyone struggling for years to get diagnosed</li>
+        <li>Patients who aren't taken seriously</li>
+        <li>Rushed appointments</li>
+        <li>Anyone tired of not being heard</li>
       </ul>
-
       <p><strong>SEEN is for people who deserve better care.</strong></p>
     </section>
 
-    <!-- Download Section -->
+    <!-- Install Section -->
     <section class="section">
-      <h2>Ready to be taken seriously?</h2>
-
-      <p>Download SEEN 0.4.3 free for macOS or Windows.</p>
+      <h2>Use SEEN on any device</h2>
+      <p>iPhone, iPad, Android, Windows, Mac — install SEEN with one tap.</p>
 
       <div class="buttons">
-        <a href="https://github.com/leormug/seen-app-clean/releases/download/v0.4.3/SEEN-0.4.3-arm64.dmg">Download for Mac</a>
-        <a href="https://github.com/leormug/seen-app-clean/releases/download/v0.4.3/SEEN-Setup-0.4.3.exe">Download for Windows</a>
+        <button id="installButton" style="display:none;">Install SEEN</button>
       </div>
 
-      <p class="tiny">
-        Early-stage tool created by patients, for patients. Use alongside your medical team’s care.
-      </p>
+      <ul>
+        <li><strong>iPhone / iPad:</strong> Tap Share → “Add to Home Screen”.</li>
+        <li><strong>Android:</strong> Tap “Install app” when prompted.</li>
+        <li><strong>Mac / Windows:</strong> Click “Install SEEN” in your browser bar.</li>
+      </ul>
+
+      <p class="tiny">Version 0.4.3 · 100% local storage · HIPAA-safe (no cloud)</p>
     </section>
 
     <!-- Footer -->
@@ -281,7 +214,25 @@ Always forget to mention what matters most?<br><br>
       <a href="mailto:new_email@gmail.com">new_email@gmail.com</a><br>
       SEEN is a patient communication tool and does not provide medical advice.
     </footer>
-
   </div>
+
+  <!-- PWA Install Script -->
+  <script>
+    const installButton = document.getElementById("installButton");
+    let deferredPrompt;
+
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      installButton.style.display = "inline-flex";
+    });
+
+    installButton.addEventListener("click", () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      deferredPrompt = null;
+      installButton.style.display = "none";
+    });
+  </script>
 </body>
 </html>
