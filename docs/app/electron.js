@@ -49,7 +49,7 @@ function registerAutoUpdates() {
         defaultId: 0,
         cancelId: 1,
         title: "Update ready",
-        message: "A new version of SEEN has been downloaded.",
+        message: "A new version has been downloaded.",
         detail: "Restart to install now or choose Later to finish when you quit.",
       })
       .then((result) => {
