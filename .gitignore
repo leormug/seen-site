@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# env / secrets
+.env
+.env.*
+*.pem
+*.p8
+AuthKey_*.p8
+*.p12
+*.cer
+*.mobileprovision
+
+# node (if you ever add build tooling here)
+node_modules/
+dist/
+build/
