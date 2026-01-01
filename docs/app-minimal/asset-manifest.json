@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.2f114192.css",
-    "main.js": "./static/js/main.50abfbfe.js",
+    "main.js": "./static/js/main.d91bb7b7.js",
     "static/media/seen-logo.png": "./static/media/seen-logo.c02cfeb3b005a7ad0bc6.png",
     "index.html": "./index.html",
     "main.2f114192.css.map": "./static/css/main.2f114192.css.map",
-    "main.50abfbfe.js.map": "./static/js/main.50abfbfe.js.map"
+    "main.d91bb7b7.js.map": "./static/js/main.d91bb7b7.js.map"
   },
   "entrypoints": [
     "static/css/main.2f114192.css",
-    "static/js/main.50abfbfe.js"
+    "static/js/main.d91bb7b7.js"
   ]
 }
