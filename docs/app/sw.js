@@ -1,5 +1,5 @@
 /* public/sw.js */
-const VERSION = 'v0.6.0-20260103-1530';
+const VERSION = 'v0.6.1-20260103-1600';
 const CACHE_NAME = `app-cache-${VERSION}`;
 const CORE = ['/', '/index.html']; // bootstrap fallback
 
