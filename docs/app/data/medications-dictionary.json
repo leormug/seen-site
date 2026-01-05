@@ -27,10 +27,10 @@
     {
       "id": "levothyroxine",
       "genericName": "Levothyroxine",
-      "brandNames": ["Synthroid", "Levoxyl"],
-      "commonDosages": ["25mcg", "50mcg", "75mcg", "100mcg", "125mcg"],
-      "dosageForms": ["Tablet"],
-      "commonSchedules": ["Once daily", "On empty stomach"]
+      "brandNames": ["Synthroid", "Levoxyl", "Tirosint"],
+      "commonDosages": ["25mcg", "50mcg", "75mcg", "88mcg", "100mcg", "112mcg", "125mcg", "137mcg", "150mcg", "175mcg", "200mcg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Once daily", "On empty stomach", "30-60 min before breakfast"]
     },
     {
       "id": "amlodipine",
@@ -46,12 +46,12 @@
       "brandNames": ["Prilosec"],
       "commonDosages": ["10mg", "20mg", "40mg"],
       "dosageForms": ["Capsule", "Tablet"],
-      "commonSchedules": ["Once daily", "Before meals"]
+      "commonSchedules": ["Once daily", "Before breakfast"]
     },
     {
       "id": "gabapentin",
       "genericName": "Gabapentin",
-      "brandNames": ["Neurontin"],
+      "brandNames": ["Neurontin", "Gralise"],
       "commonDosages": ["100mg", "300mg", "400mg", "600mg", "800mg"],
       "dosageForms": ["Capsule", "Tablet"],
       "commonSchedules": ["Once daily", "Twice daily", "Three times daily"]
@@ -69,7 +69,7 @@
       "genericName": "Aspirin",
       "brandNames": ["Bayer", "Ecotrin"],
       "commonDosages": ["81mg", "325mg"],
-      "dosageForms": ["Tablet", "Chewable tablet"],
+      "dosageForms": ["Tablet", "Chewable tablet", "Enteric-coated tablet"],
       "commonSchedules": ["Once daily", "As needed"]
     },
     {
@@ -78,13 +78,13 @@
       "brandNames": ["Advil", "Motrin"],
       "commonDosages": ["200mg", "400mg", "600mg", "800mg"],
       "dosageForms": ["Tablet", "Capsule", "Liquid"],
-      "commonSchedules": ["Every 4-6 hours", "As needed"]
+      "commonSchedules": ["Every 4-6 hours", "As needed", "Three times daily"]
     },
     {
       "id": "acetaminophen",
       "genericName": "Acetaminophen",
       "brandNames": ["Tylenol"],
-      "commonDosages": ["325mg", "500mg", "650mg"],
+      "commonDosages": ["325mg", "500mg", "650mg", "1000mg"],
       "dosageForms": ["Tablet", "Capsule", "Liquid"],
       "commonSchedules": ["Every 4-6 hours", "As needed"]
     },
@@ -115,10 +115,2762 @@
     {
       "id": "prednisone",
       "genericName": "Prednisone",
-      "brandNames": ["Deltasone"],
-      "commonDosages": ["5mg", "10mg", "20mg", "50mg"],
+      "brandNames": ["Deltasone", "Rayos"],
+      "commonDosages": ["1mg", "2.5mg", "5mg", "10mg", "20mg", "50mg"],
       "dosageForms": ["Tablet"],
       "commonSchedules": ["Once daily", "With food", "As directed"]
+    },
+    {
+      "id": "losartan",
+      "genericName": "Losartan",
+      "brandNames": ["Cozaar"],
+      "commonDosages": ["25mg", "50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "metoprolol-succinate",
+      "genericName": "Metoprolol Succinate",
+      "brandNames": ["Toprol-XL"],
+      "commonDosages": ["25mg", "50mg", "100mg", "200mg"],
+      "dosageForms": ["Extended-release tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "metoprolol-tartrate",
+      "genericName": "Metoprolol Tartrate",
+      "brandNames": ["Lopressor"],
+      "commonDosages": ["25mg", "50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "genericName": "Hydrochlorothiazide",
+      "brandNames": ["Microzide"],
+      "commonDosages": ["12.5mg", "25mg", "50mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "furosemide",
+      "genericName": "Furosemide",
+      "brandNames": ["Lasix"],
+      "commonDosages": ["20mg", "40mg", "80mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "rosuvastatin",
+      "genericName": "Rosuvastatin",
+      "brandNames": ["Crestor"],
+      "commonDosages": ["5mg", "10mg", "20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "simvastatin",
+      "genericName": "Simvastatin",
+      "brandNames": ["Zocor"],
+      "commonDosages": ["5mg", "10mg", "20mg", "40mg", "80mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "pravastatin",
+      "genericName": "Pravastatin",
+      "brandNames": ["Pravachol"],
+      "commonDosages": ["10mg", "20mg", "40mg", "80mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "pantoprazole",
+      "genericName": "Pantoprazole",
+      "brandNames": ["Protonix"],
+      "commonDosages": ["20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Before breakfast"]
+    },
+    {
+      "id": "esomeprazole",
+      "genericName": "Esomeprazole",
+      "brandNames": ["Nexium"],
+      "commonDosages": ["20mg", "40mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily", "Before breakfast"]
+    },
+    {
+      "id": "lansoprazole",
+      "genericName": "Lansoprazole",
+      "brandNames": ["Prevacid"],
+      "commonDosages": ["15mg", "30mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Before breakfast"]
+    },
+    {
+      "id": "famotidine",
+      "genericName": "Famotidine",
+      "brandNames": ["Pepcid"],
+      "commonDosages": ["10mg", "20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily", "As needed"]
+    },
+    {
+      "id": "ranitidine",
+      "genericName": "Ranitidine",
+      "brandNames": ["Zantac"],
+      "commonDosages": ["75mg", "150mg", "300mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "escitalopram",
+      "genericName": "Escitalopram",
+      "brandNames": ["Lexapro"],
+      "commonDosages": ["5mg", "10mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "citalopram",
+      "genericName": "Citalopram",
+      "brandNames": ["Celexa"],
+      "commonDosages": ["10mg", "20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "fluoxetine",
+      "genericName": "Fluoxetine",
+      "brandNames": ["Prozac"],
+      "commonDosages": ["10mg", "20mg", "40mg", "60mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "paroxetine",
+      "genericName": "Paroxetine",
+      "brandNames": ["Paxil"],
+      "commonDosages": ["10mg", "20mg", "30mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "venlafaxine",
+      "genericName": "Venlafaxine",
+      "brandNames": ["Effexor", "Effexor XR"],
+      "commonDosages": ["37.5mg", "75mg", "150mg", "225mg"],
+      "dosageForms": ["Capsule", "Extended-release capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "bupropion",
+      "genericName": "Bupropion",
+      "brandNames": ["Wellbutrin", "Wellbutrin XL", "Zyban"],
+      "commonDosages": ["75mg", "100mg", "150mg", "300mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "trazodone",
+      "genericName": "Trazodone",
+      "brandNames": ["Desyrel"],
+      "commonDosages": ["50mg", "100mg", "150mg", "300mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "mirtazapine",
+      "genericName": "Mirtazapine",
+      "brandNames": ["Remeron"],
+      "commonDosages": ["7.5mg", "15mg", "30mg", "45mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "alprazolam",
+      "genericName": "Alprazolam",
+      "brandNames": ["Xanax"],
+      "commonDosages": ["0.25mg", "0.5mg", "1mg", "2mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["As needed", "Three times daily"]
+    },
+    {
+      "id": "lorazepam",
+      "genericName": "Lorazepam",
+      "brandNames": ["Ativan"],
+      "commonDosages": ["0.5mg", "1mg", "2mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["As needed", "Two to three times daily"]
+    },
+    {
+      "id": "clonazepam",
+      "genericName": "Clonazepam",
+      "brandNames": ["Klonopin"],
+      "commonDosages": ["0.25mg", "0.5mg", "1mg", "2mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily", "Three times daily"]
+    },
+    {
+      "id": "diazepam",
+      "genericName": "Diazepam",
+      "brandNames": ["Valium"],
+      "commonDosages": ["2mg", "5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["As needed", "Two to four times daily"]
+    },
+    {
+      "id": "zolpidem",
+      "genericName": "Zolpidem",
+      "brandNames": ["Ambien", "Ambien CR"],
+      "commonDosages": ["5mg", "6.25mg", "10mg", "12.5mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["At bedtime", "As needed"]
+    },
+    {
+      "id": "eszopiclone",
+      "genericName": "Eszopiclone",
+      "brandNames": ["Lunesta"],
+      "commonDosages": ["1mg", "2mg", "3mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["At bedtime"]
+    },
+    {
+      "id": "quetiapine",
+      "genericName": "Quetiapine",
+      "brandNames": ["Seroquel", "Seroquel XR"],
+      "commonDosages": ["25mg", "50mg", "100mg", "200mg", "300mg", "400mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Twice daily", "At bedtime"]
+    },
+    {
+      "id": "aripiprazole",
+      "genericName": "Aripiprazole",
+      "brandNames": ["Abilify"],
+      "commonDosages": ["2mg", "5mg", "10mg", "15mg", "20mg", "30mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "risperidone",
+      "genericName": "Risperidone",
+      "brandNames": ["Risperdal"],
+      "commonDosages": ["0.25mg", "0.5mg", "1mg", "2mg", "3mg", "4mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "olanzapine",
+      "genericName": "Olanzapine",
+      "brandNames": ["Zyprexa"],
+      "commonDosages": ["2.5mg", "5mg", "10mg", "15mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "lamotrigine",
+      "genericName": "Lamotrigine",
+      "brandNames": ["Lamictal"],
+      "commonDosages": ["25mg", "50mg", "100mg", "150mg", "200mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "carbamazepine",
+      "genericName": "Carbamazepine",
+      "brandNames": ["Tegretol"],
+      "commonDosages": ["100mg", "200mg", "400mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Twice daily", "Three times daily"]
+    },
+    {
+      "id": "valproic-acid",
+      "genericName": "Valproic Acid",
+      "brandNames": ["Depakote", "Depakene"],
+      "commonDosages": ["250mg", "500mg", "750mg", "1000mg"],
+      "dosageForms": ["Tablet", "Capsule", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "levetiracetam",
+      "genericName": "Levetiracetam",
+      "brandNames": ["Keppra"],
+      "commonDosages": ["250mg", "500mg", "750mg", "1000mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "topiramate",
+      "genericName": "Topiramate",
+      "brandNames": ["Topamax"],
+      "commonDosages": ["25mg", "50mg", "100mg", "200mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "phenytoin",
+      "genericName": "Phenytoin",
+      "brandNames": ["Dilantin"],
+      "commonDosages": ["30mg", "100mg", "200mg", "300mg"],
+      "dosageForms": ["Capsule", "Chewable tablet"],
+      "commonSchedules": ["Once daily", "Twice daily", "Three times daily"]
+    },
+    {
+      "id": "warfarin",
+      "genericName": "Warfarin",
+      "brandNames": ["Coumadin", "Jantoven"],
+      "commonDosages": ["1mg", "2mg", "2.5mg", "3mg", "4mg", "5mg", "6mg", "7.5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "apixaban",
+      "genericName": "Apixaban",
+      "brandNames": ["Eliquis"],
+      "commonDosages": ["2.5mg", "5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "rivaroxaban",
+      "genericName": "Rivaroxaban",
+      "brandNames": ["Xarelto"],
+      "commonDosages": ["10mg", "15mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "With food"]
+    },
+    {
+      "id": "dabigatran",
+      "genericName": "Dabigatran",
+      "brandNames": ["Pradaxa"],
+      "commonDosages": ["75mg", "110mg", "150mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "clopidogrel",
+      "genericName": "Clopidogrel",
+      "brandNames": ["Plavix"],
+      "commonDosages": ["75mg", "300mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "ticagrelor",
+      "genericName": "Ticagrelor",
+      "brandNames": ["Brilinta"],
+      "commonDosages": ["60mg", "90mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "carvedilol",
+      "genericName": "Carvedilol",
+      "brandNames": ["Coreg"],
+      "commonDosages": ["3.125mg", "6.25mg", "12.5mg", "25mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "atenolol",
+      "genericName": "Atenolol",
+      "brandNames": ["Tenormin"],
+      "commonDosages": ["25mg", "50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "propranolol",
+      "genericName": "Propranolol",
+      "brandNames": ["Inderal", "Inderal LA"],
+      "commonDosages": ["10mg", "20mg", "40mg", "60mg", "80mg"],
+      "dosageForms": ["Tablet", "Extended-release capsule"],
+      "commonSchedules": ["Twice daily", "Three times daily", "Once daily"]
+    },
+    {
+      "id": "bisoprolol",
+      "genericName": "Bisoprolol",
+      "brandNames": ["Zebeta"],
+      "commonDosages": ["2.5mg", "5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "nebivolol",
+      "genericName": "Nebivolol",
+      "brandNames": ["Bystolic"],
+      "commonDosages": ["2.5mg", "5mg", "10mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "diltiazem",
+      "genericName": "Diltiazem",
+      "brandNames": ["Cardizem", "Cartia XT", "Tiazac"],
+      "commonDosages": ["30mg", "60mg", "90mg", "120mg", "180mg", "240mg", "300mg", "360mg"],
+      "dosageForms": ["Tablet", "Extended-release capsule"],
+      "commonSchedules": ["Once daily", "Three times daily"]
+    },
+    {
+      "id": "verapamil",
+      "genericName": "Verapamil",
+      "brandNames": ["Calan", "Verelan"],
+      "commonDosages": ["40mg", "80mg", "120mg", "180mg", "240mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Three times daily"]
+    },
+    {
+      "id": "nifedipine",
+      "genericName": "Nifedipine",
+      "brandNames": ["Procardia", "Adalat"],
+      "commonDosages": ["10mg", "20mg", "30mg", "60mg", "90mg"],
+      "dosageForms": ["Capsule", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Three times daily"]
+    },
+    {
+      "id": "enalapril",
+      "genericName": "Enalapril",
+      "brandNames": ["Vasotec"],
+      "commonDosages": ["2.5mg", "5mg", "10mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "ramipril",
+      "genericName": "Ramipril",
+      "brandNames": ["Altace"],
+      "commonDosages": ["1.25mg", "2.5mg", "5mg", "10mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "benazepril",
+      "genericName": "Benazepril",
+      "brandNames": ["Lotensin"],
+      "commonDosages": ["5mg", "10mg", "20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "quinapril",
+      "genericName": "Quinapril",
+      "brandNames": ["Accupril"],
+      "commonDosages": ["5mg", "10mg", "20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "valsartan",
+      "genericName": "Valsartan",
+      "brandNames": ["Diovan"],
+      "commonDosages": ["40mg", "80mg", "160mg", "320mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "irbesartan",
+      "genericName": "Irbesartan",
+      "brandNames": ["Avapro"],
+      "commonDosages": ["75mg", "150mg", "300mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "olmesartan",
+      "genericName": "Olmesartan",
+      "brandNames": ["Benicar"],
+      "commonDosages": ["5mg", "20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "telmisartan",
+      "genericName": "Telmisartan",
+      "brandNames": ["Micardis"],
+      "commonDosages": ["20mg", "40mg", "80mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "spironolactone",
+      "genericName": "Spironolactone",
+      "brandNames": ["Aldactone"],
+      "commonDosages": ["25mg", "50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "chlorthalidone",
+      "genericName": "Chlorthalidone",
+      "brandNames": ["Thalitone"],
+      "commonDosages": ["12.5mg", "25mg", "50mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "bumetanide",
+      "genericName": "Bumetanide",
+      "brandNames": ["Bumex"],
+      "commonDosages": ["0.5mg", "1mg", "2mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "torsemide",
+      "genericName": "Torsemide",
+      "brandNames": ["Demadex"],
+      "commonDosages": ["5mg", "10mg", "20mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "triamterene-hctz",
+      "genericName": "Triamterene/HCTZ",
+      "brandNames": ["Dyazide", "Maxzide"],
+      "commonDosages": ["37.5mg/25mg", "75mg/50mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "hydralazine",
+      "genericName": "Hydralazine",
+      "brandNames": ["Apresoline"],
+      "commonDosages": ["10mg", "25mg", "50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Two to four times daily"]
+    },
+    {
+      "id": "clonidine",
+      "genericName": "Clonidine",
+      "brandNames": ["Catapres"],
+      "commonDosages": ["0.1mg", "0.2mg", "0.3mg"],
+      "dosageForms": ["Tablet", "Patch"],
+      "commonSchedules": ["Twice daily", "Weekly patch"]
+    },
+    {
+      "id": "doxazosin",
+      "genericName": "Doxazosin",
+      "brandNames": ["Cardura"],
+      "commonDosages": ["1mg", "2mg", "4mg", "8mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "prazosin",
+      "genericName": "Prazosin",
+      "brandNames": ["Minipress"],
+      "commonDosages": ["1mg", "2mg", "5mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Two to three times daily", "At bedtime"]
+    },
+    {
+      "id": "terazosin",
+      "genericName": "Terazosin",
+      "brandNames": ["Hytrin"],
+      "commonDosages": ["1mg", "2mg", "5mg", "10mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "digoxin",
+      "genericName": "Digoxin",
+      "brandNames": ["Lanoxin"],
+      "commonDosages": ["0.0625mg", "0.125mg", "0.25mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "amiodarone",
+      "genericName": "Amiodarone",
+      "brandNames": ["Pacerone", "Cordarone"],
+      "commonDosages": ["100mg", "200mg", "400mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "flecainide",
+      "genericName": "Flecainide",
+      "brandNames": ["Tambocor"],
+      "commonDosages": ["50mg", "100mg", "150mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "sotalol",
+      "genericName": "Sotalol",
+      "brandNames": ["Betapace"],
+      "commonDosages": ["80mg", "120mg", "160mg", "240mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "isosorbide-mononitrate",
+      "genericName": "Isosorbide Mononitrate",
+      "brandNames": ["Imdur"],
+      "commonDosages": ["30mg", "60mg", "120mg"],
+      "dosageForms": ["Extended-release tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "isosorbide-dinitrate",
+      "genericName": "Isosorbide Dinitrate",
+      "brandNames": ["Isordil"],
+      "commonDosages": ["5mg", "10mg", "20mg", "30mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Two to three times daily"]
+    },
+    {
+      "id": "nitroglycerin",
+      "genericName": "Nitroglycerin",
+      "brandNames": ["Nitrostat", "Nitro-Dur"],
+      "commonDosages": ["0.3mg", "0.4mg", "0.6mg"],
+      "dosageForms": ["Sublingual tablet", "Patch", "Spray"],
+      "commonSchedules": ["As needed", "Daily patch"]
+    },
+    {
+      "id": "ranolazine",
+      "genericName": "Ranolazine",
+      "brandNames": ["Ranexa"],
+      "commonDosages": ["500mg", "1000mg"],
+      "dosageForms": ["Extended-release tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "glipizide",
+      "genericName": "Glipizide",
+      "brandNames": ["Glucotrol", "Glucotrol XL"],
+      "commonDosages": ["2.5mg", "5mg", "10mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Twice daily", "Before meals"]
+    },
+    {
+      "id": "glyburide",
+      "genericName": "Glyburide",
+      "brandNames": ["DiaBeta", "Glynase"],
+      "commonDosages": ["1.25mg", "2.5mg", "5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "glimepiride",
+      "genericName": "Glimepiride",
+      "brandNames": ["Amaryl"],
+      "commonDosages": ["1mg", "2mg", "4mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "With breakfast"]
+    },
+    {
+      "id": "pioglitazone",
+      "genericName": "Pioglitazone",
+      "brandNames": ["Actos"],
+      "commonDosages": ["15mg", "30mg", "45mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "sitagliptin",
+      "genericName": "Sitagliptin",
+      "brandNames": ["Januvia"],
+      "commonDosages": ["25mg", "50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "linagliptin",
+      "genericName": "Linagliptin",
+      "brandNames": ["Tradjenta"],
+      "commonDosages": ["5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "saxagliptin",
+      "genericName": "Saxagliptin",
+      "brandNames": ["Onglyza"],
+      "commonDosages": ["2.5mg", "5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "empagliflozin",
+      "genericName": "Empagliflozin",
+      "brandNames": ["Jardiance"],
+      "commonDosages": ["10mg", "25mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "canagliflozin",
+      "genericName": "Canagliflozin",
+      "brandNames": ["Invokana"],
+      "commonDosages": ["100mg", "300mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Before first meal"]
+    },
+    {
+      "id": "dapagliflozin",
+      "genericName": "Dapagliflozin",
+      "brandNames": ["Farxiga"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "liraglutide",
+      "genericName": "Liraglutide",
+      "brandNames": ["Victoza", "Saxenda"],
+      "commonDosages": ["0.6mg", "1.2mg", "1.8mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "semaglutide",
+      "genericName": "Semaglutide",
+      "brandNames": ["Ozempic", "Wegovy", "Rybelsus"],
+      "commonDosages": ["0.25mg", "0.5mg", "1mg", "2mg", "2.4mg", "3mg", "7mg", "14mg"],
+      "dosageForms": ["Injection", "Tablet"],
+      "commonSchedules": ["Once weekly", "Once daily"]
+    },
+    {
+      "id": "dulaglutide",
+      "genericName": "Dulaglutide",
+      "brandNames": ["Trulicity"],
+      "commonDosages": ["0.75mg", "1.5mg", "3mg", "4.5mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once weekly"]
+    },
+    {
+      "id": "tirzepatide",
+      "genericName": "Tirzepatide",
+      "brandNames": ["Mounjaro", "Zepbound"],
+      "commonDosages": ["2.5mg", "5mg", "7.5mg", "10mg", "12.5mg", "15mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once weekly"]
+    },
+    {
+      "id": "insulin-glargine",
+      "genericName": "Insulin Glargine",
+      "brandNames": ["Lantus", "Basaglar", "Toujeo"],
+      "commonDosages": ["10 units", "20 units", "30 units", "40 units", "50 units"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "insulin-detemir",
+      "genericName": "Insulin Detemir",
+      "brandNames": ["Levemir"],
+      "commonDosages": ["10 units", "20 units", "30 units", "40 units"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "insulin-degludec",
+      "genericName": "Insulin Degludec",
+      "brandNames": ["Tresiba"],
+      "commonDosages": ["10 units", "20 units", "30 units", "40 units", "50 units"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "insulin-lispro",
+      "genericName": "Insulin Lispro",
+      "brandNames": ["Humalog", "Admelog"],
+      "commonDosages": ["Variable"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["With meals", "Before meals"]
+    },
+    {
+      "id": "insulin-aspart",
+      "genericName": "Insulin Aspart",
+      "brandNames": ["NovoLog", "Fiasp"],
+      "commonDosages": ["Variable"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["With meals", "Before meals"]
+    },
+    {
+      "id": "insulin-regular",
+      "genericName": "Insulin Regular",
+      "brandNames": ["Humulin R", "Novolin R"],
+      "commonDosages": ["Variable"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Before meals", "30 minutes before meals"]
+    },
+    {
+      "id": "insulin-nph",
+      "genericName": "Insulin NPH",
+      "brandNames": ["Humulin N", "Novolin N"],
+      "commonDosages": ["Variable"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "albuterol",
+      "genericName": "Albuterol",
+      "brandNames": ["ProAir", "Ventolin", "Proventil"],
+      "commonDosages": ["90mcg/puff", "2.5mg/3ml nebulizer"],
+      "dosageForms": ["Inhaler", "Nebulizer solution"],
+      "commonSchedules": ["As needed", "Every 4-6 hours"]
+    },
+    {
+      "id": "levalbuterol",
+      "genericName": "Levalbuterol",
+      "brandNames": ["Xopenex"],
+      "commonDosages": ["45mcg/puff", "0.63mg", "1.25mg"],
+      "dosageForms": ["Inhaler", "Nebulizer solution"],
+      "commonSchedules": ["As needed", "Every 6-8 hours"]
+    },
+    {
+      "id": "fluticasone-inhaled",
+      "genericName": "Fluticasone (Inhaled)",
+      "brandNames": ["Flovent", "ArmonAir"],
+      "commonDosages": ["44mcg", "110mcg", "220mcg"],
+      "dosageForms": ["Inhaler"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "budesonide-inhaled",
+      "genericName": "Budesonide (Inhaled)",
+      "brandNames": ["Pulmicort"],
+      "commonDosages": ["90mcg", "180mcg", "0.25mg", "0.5mg", "1mg"],
+      "dosageForms": ["Inhaler", "Nebulizer suspension"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "fluticasone-salmeterol",
+      "genericName": "Fluticasone/Salmeterol",
+      "brandNames": ["Advair", "AirDuo"],
+      "commonDosages": ["100/50mcg", "250/50mcg", "500/50mcg"],
+      "dosageForms": ["Inhaler"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "budesonide-formoterol",
+      "genericName": "Budesonide/Formoterol",
+      "brandNames": ["Symbicort"],
+      "commonDosages": ["80/4.5mcg", "160/4.5mcg"],
+      "dosageForms": ["Inhaler"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "tiotropium",
+      "genericName": "Tiotropium",
+      "brandNames": ["Spiriva"],
+      "commonDosages": ["1.25mcg", "2.5mcg", "18mcg"],
+      "dosageForms": ["Inhaler"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "ipratropium",
+      "genericName": "Ipratropium",
+      "brandNames": ["Atrovent"],
+      "commonDosages": ["17mcg/puff", "0.5mg/2.5ml"],
+      "dosageForms": ["Inhaler", "Nebulizer solution"],
+      "commonSchedules": ["Four times daily", "As needed"]
+    },
+    {
+      "id": "ipratropium-albuterol",
+      "genericName": "Ipratropium/Albuterol",
+      "brandNames": ["Combivent", "DuoNeb"],
+      "commonDosages": ["20mcg/100mcg", "0.5mg/2.5mg"],
+      "dosageForms": ["Inhaler", "Nebulizer solution"],
+      "commonSchedules": ["Four times daily"]
+    },
+    {
+      "id": "montelukast",
+      "genericName": "Montelukast",
+      "brandNames": ["Singulair"],
+      "commonDosages": ["4mg", "5mg", "10mg"],
+      "dosageForms": ["Tablet", "Chewable tablet", "Granules"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "cetirizine",
+      "genericName": "Cetirizine",
+      "brandNames": ["Zyrtec"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet", "Liquid"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "loratadine",
+      "genericName": "Loratadine",
+      "brandNames": ["Claritin"],
+      "commonDosages": ["10mg"],
+      "dosageForms": ["Tablet", "Liquid"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "fexofenadine",
+      "genericName": "Fexofenadine",
+      "brandNames": ["Allegra"],
+      "commonDosages": ["60mg", "180mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "diphenhydramine",
+      "genericName": "Diphenhydramine",
+      "brandNames": ["Benadryl"],
+      "commonDosages": ["25mg", "50mg"],
+      "dosageForms": ["Tablet", "Capsule", "Liquid"],
+      "commonSchedules": ["Every 4-6 hours", "As needed", "At bedtime"]
+    },
+    {
+      "id": "hydroxyzine",
+      "genericName": "Hydroxyzine",
+      "brandNames": ["Vistaril", "Atarax"],
+      "commonDosages": ["10mg", "25mg", "50mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Three to four times daily", "As needed"]
+    },
+    {
+      "id": "fluticasone-nasal",
+      "genericName": "Fluticasone (Nasal)",
+      "brandNames": ["Flonase"],
+      "commonDosages": ["50mcg/spray"],
+      "dosageForms": ["Nasal spray"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "mometasone-nasal",
+      "genericName": "Mometasone (Nasal)",
+      "brandNames": ["Nasonex"],
+      "commonDosages": ["50mcg/spray"],
+      "dosageForms": ["Nasal spray"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "benzonatate",
+      "genericName": "Benzonatate",
+      "brandNames": ["Tessalon"],
+      "commonDosages": ["100mg", "200mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Three times daily", "As needed"]
+    },
+    {
+      "id": "guaifenesin",
+      "genericName": "Guaifenesin",
+      "brandNames": ["Mucinex"],
+      "commonDosages": ["200mg", "400mg", "600mg", "1200mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet", "Liquid"],
+      "commonSchedules": ["Every 4 hours", "Every 12 hours"]
+    },
+    {
+      "id": "dextromethorphan",
+      "genericName": "Dextromethorphan",
+      "brandNames": ["Delsym"],
+      "commonDosages": ["10mg", "15mg", "30mg"],
+      "dosageForms": ["Liquid", "Lozenge"],
+      "commonSchedules": ["Every 4-6 hours", "Every 12 hours"]
+    },
+    {
+      "id": "amoxicillin",
+      "genericName": "Amoxicillin",
+      "brandNames": ["Amoxil"],
+      "commonDosages": ["250mg", "500mg", "875mg"],
+      "dosageForms": ["Capsule", "Tablet", "Liquid"],
+      "commonSchedules": ["Every 8 hours", "Every 12 hours", "Three times daily"]
+    },
+    {
+      "id": "amoxicillin-clavulanate",
+      "genericName": "Amoxicillin/Clavulanate",
+      "brandNames": ["Augmentin"],
+      "commonDosages": ["250/125mg", "500/125mg", "875/125mg"],
+      "dosageForms": ["Tablet", "Liquid"],
+      "commonSchedules": ["Every 8 hours", "Every 12 hours"]
+    },
+    {
+      "id": "azithromycin",
+      "genericName": "Azithromycin",
+      "brandNames": ["Zithromax", "Z-Pack"],
+      "commonDosages": ["250mg", "500mg"],
+      "dosageForms": ["Tablet", "Liquid"],
+      "commonSchedules": ["Once daily", "As Z-Pack"]
+    },
+    {
+      "id": "doxycycline",
+      "genericName": "Doxycycline",
+      "brandNames": ["Vibramycin", "Doryx"],
+      "commonDosages": ["50mg", "100mg", "200mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "ciprofloxacin",
+      "genericName": "Ciprofloxacin",
+      "brandNames": ["Cipro"],
+      "commonDosages": ["250mg", "500mg", "750mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "levofloxacin",
+      "genericName": "Levofloxacin",
+      "brandNames": ["Levaquin"],
+      "commonDosages": ["250mg", "500mg", "750mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "metronidazole",
+      "genericName": "Metronidazole",
+      "brandNames": ["Flagyl"],
+      "commonDosages": ["250mg", "500mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Three times daily", "Four times daily"]
+    },
+    {
+      "id": "clindamycin",
+      "genericName": "Clindamycin",
+      "brandNames": ["Cleocin"],
+      "commonDosages": ["150mg", "300mg", "450mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Every 6 hours", "Every 8 hours"]
+    },
+    {
+      "id": "cephalexin",
+      "genericName": "Cephalexin",
+      "brandNames": ["Keflex"],
+      "commonDosages": ["250mg", "500mg"],
+      "dosageForms": ["Capsule", "Liquid"],
+      "commonSchedules": ["Every 6 hours", "Four times daily"]
+    },
+    {
+      "id": "cefdinir",
+      "genericName": "Cefdinir",
+      "brandNames": ["Omnicef"],
+      "commonDosages": ["300mg"],
+      "dosageForms": ["Capsule", "Liquid"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "cefuroxime",
+      "genericName": "Cefuroxime",
+      "brandNames": ["Ceftin"],
+      "commonDosages": ["250mg", "500mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "sulfamethoxazole-trimethoprim",
+      "genericName": "Sulfamethoxazole/Trimethoprim",
+      "brandNames": ["Bactrim", "Septra"],
+      "commonDosages": ["400/80mg", "800/160mg"],
+      "dosageForms": ["Tablet", "Liquid"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "nitrofurantoin",
+      "genericName": "Nitrofurantoin",
+      "brandNames": ["Macrobid", "Macrodantin"],
+      "commonDosages": ["50mg", "100mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Twice daily", "Four times daily"]
+    },
+    {
+      "id": "fluconazole",
+      "genericName": "Fluconazole",
+      "brandNames": ["Diflucan"],
+      "commonDosages": ["50mg", "100mg", "150mg", "200mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Single dose"]
+    },
+    {
+      "id": "nystatin",
+      "genericName": "Nystatin",
+      "brandNames": ["Mycostatin"],
+      "commonDosages": ["100,000 units/ml"],
+      "dosageForms": ["Liquid", "Tablet"],
+      "commonSchedules": ["Four times daily"]
+    },
+    {
+      "id": "acyclovir",
+      "genericName": "Acyclovir",
+      "brandNames": ["Zovirax"],
+      "commonDosages": ["200mg", "400mg", "800mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Two to five times daily"]
+    },
+    {
+      "id": "valacyclovir",
+      "genericName": "Valacyclovir",
+      "brandNames": ["Valtrex"],
+      "commonDosages": ["500mg", "1000mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily", "Three times daily"]
+    },
+    {
+      "id": "oseltamivir",
+      "genericName": "Oseltamivir",
+      "brandNames": ["Tamiflu"],
+      "commonDosages": ["30mg", "45mg", "75mg"],
+      "dosageForms": ["Capsule", "Liquid"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "naproxen",
+      "genericName": "Naproxen",
+      "brandNames": ["Aleve", "Naprosyn"],
+      "commonDosages": ["220mg", "250mg", "375mg", "500mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily", "Every 8-12 hours"]
+    },
+    {
+      "id": "meloxicam",
+      "genericName": "Meloxicam",
+      "brandNames": ["Mobic"],
+      "commonDosages": ["7.5mg", "15mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "diclofenac",
+      "genericName": "Diclofenac",
+      "brandNames": ["Voltaren", "Cataflam"],
+      "commonDosages": ["25mg", "50mg", "75mg"],
+      "dosageForms": ["Tablet", "Gel"],
+      "commonSchedules": ["Two to three times daily"]
+    },
+    {
+      "id": "celecoxib",
+      "genericName": "Celecoxib",
+      "brandNames": ["Celebrex"],
+      "commonDosages": ["100mg", "200mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "indomethacin",
+      "genericName": "Indomethacin",
+      "brandNames": ["Indocin"],
+      "commonDosages": ["25mg", "50mg", "75mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Two to three times daily"]
+    },
+    {
+      "id": "tramadol",
+      "genericName": "Tramadol",
+      "brandNames": ["Ultram"],
+      "commonDosages": ["50mg", "100mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Every 4-6 hours", "As needed"]
+    },
+    {
+      "id": "hydrocodone-acetaminophen",
+      "genericName": "Hydrocodone/Acetaminophen",
+      "brandNames": ["Norco", "Vicodin"],
+      "commonDosages": ["5/325mg", "7.5/325mg", "10/325mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Every 4-6 hours", "As needed"]
+    },
+    {
+      "id": "oxycodone",
+      "genericName": "Oxycodone",
+      "brandNames": ["OxyContin", "Roxicodone"],
+      "commonDosages": ["5mg", "10mg", "15mg", "20mg", "30mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Every 4-6 hours", "Every 12 hours"]
+    },
+    {
+      "id": "oxycodone-acetaminophen",
+      "genericName": "Oxycodone/Acetaminophen",
+      "brandNames": ["Percocet"],
+      "commonDosages": ["2.5/325mg", "5/325mg", "7.5/325mg", "10/325mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Every 4-6 hours", "As needed"]
+    },
+    {
+      "id": "morphine",
+      "genericName": "Morphine",
+      "brandNames": ["MS Contin", "Kadian"],
+      "commonDosages": ["15mg", "30mg", "60mg", "100mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet", "Capsule"],
+      "commonSchedules": ["Every 4 hours", "Every 8-12 hours"]
+    },
+    {
+      "id": "fentanyl-patch",
+      "genericName": "Fentanyl (Patch)",
+      "brandNames": ["Duragesic"],
+      "commonDosages": ["12mcg/hr", "25mcg/hr", "50mcg/hr", "75mcg/hr", "100mcg/hr"],
+      "dosageForms": ["Transdermal patch"],
+      "commonSchedules": ["Every 72 hours"]
+    },
+    {
+      "id": "buprenorphine",
+      "genericName": "Buprenorphine",
+      "brandNames": ["Subutex", "Butrans"],
+      "commonDosages": ["2mg", "8mg", "5mcg/hr", "10mcg/hr", "20mcg/hr"],
+      "dosageForms": ["Sublingual tablet", "Patch"],
+      "commonSchedules": ["Once daily", "Weekly patch"]
+    },
+    {
+      "id": "buprenorphine-naloxone",
+      "genericName": "Buprenorphine/Naloxone",
+      "brandNames": ["Suboxone"],
+      "commonDosages": ["2/0.5mg", "4/1mg", "8/2mg", "12/3mg"],
+      "dosageForms": ["Sublingual film", "Sublingual tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "naltrexone",
+      "genericName": "Naltrexone",
+      "brandNames": ["Vivitrol", "ReVia"],
+      "commonDosages": ["50mg", "380mg"],
+      "dosageForms": ["Tablet", "Injection"],
+      "commonSchedules": ["Once daily", "Monthly injection"]
+    },
+    {
+      "id": "cyclobenzaprine",
+      "genericName": "Cyclobenzaprine",
+      "brandNames": ["Flexeril"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three times daily", "At bedtime"]
+    },
+    {
+      "id": "methocarbamol",
+      "genericName": "Methocarbamol",
+      "brandNames": ["Robaxin"],
+      "commonDosages": ["500mg", "750mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Four times daily", "As needed"]
+    },
+    {
+      "id": "baclofen",
+      "genericName": "Baclofen",
+      "brandNames": ["Lioresal"],
+      "commonDosages": ["5mg", "10mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three times daily"]
+    },
+    {
+      "id": "tizanidine",
+      "genericName": "Tizanidine",
+      "brandNames": ["Zanaflex"],
+      "commonDosages": ["2mg", "4mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Every 6-8 hours", "As needed"]
+    },
+    {
+      "id": "carisoprodol",
+      "genericName": "Carisoprodol",
+      "brandNames": ["Soma"],
+      "commonDosages": ["250mg", "350mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three times daily", "At bedtime"]
+    },
+    {
+      "id": "colchicine",
+      "genericName": "Colchicine",
+      "brandNames": ["Colcrys"],
+      "commonDosages": ["0.6mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "allopurinol",
+      "genericName": "Allopurinol",
+      "brandNames": ["Zyloprim"],
+      "commonDosages": ["100mg", "200mg", "300mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "febuxostat",
+      "genericName": "Febuxostat",
+      "brandNames": ["Uloric"],
+      "commonDosages": ["40mg", "80mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "methotrexate",
+      "genericName": "Methotrexate",
+      "brandNames": ["Trexall", "Rheumatrex"],
+      "commonDosages": ["2.5mg", "5mg", "7.5mg", "10mg", "15mg", "20mg", "25mg"],
+      "dosageForms": ["Tablet", "Injection"],
+      "commonSchedules": ["Once weekly"]
+    },
+    {
+      "id": "hydroxychloroquine",
+      "genericName": "Hydroxychloroquine",
+      "brandNames": ["Plaquenil"],
+      "commonDosages": ["200mg", "400mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "sulfasalazine",
+      "genericName": "Sulfasalazine",
+      "brandNames": ["Azulfidine"],
+      "commonDosages": ["500mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily", "Four times daily"]
+    },
+    {
+      "id": "leflunomide",
+      "genericName": "Leflunomide",
+      "brandNames": ["Arava"],
+      "commonDosages": ["10mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "adalimumab",
+      "genericName": "Adalimumab",
+      "brandNames": ["Humira"],
+      "commonDosages": ["40mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every other week", "Weekly"]
+    },
+    {
+      "id": "etanercept",
+      "genericName": "Etanercept",
+      "brandNames": ["Enbrel"],
+      "commonDosages": ["25mg", "50mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Once weekly", "Twice weekly"]
+    },
+    {
+      "id": "alendronate",
+      "genericName": "Alendronate",
+      "brandNames": ["Fosamax"],
+      "commonDosages": ["10mg", "35mg", "70mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Once weekly"]
+    },
+    {
+      "id": "risedronate",
+      "genericName": "Risedronate",
+      "brandNames": ["Actonel"],
+      "commonDosages": ["5mg", "35mg", "150mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Once weekly", "Once monthly"]
+    },
+    {
+      "id": "ibandronate",
+      "genericName": "Ibandronate",
+      "brandNames": ["Boniva"],
+      "commonDosages": ["150mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once monthly"]
+    },
+    {
+      "id": "calcium-vitamin-d",
+      "genericName": "Calcium/Vitamin D",
+      "brandNames": ["Caltrate", "Os-Cal", "Citracal"],
+      "commonDosages": ["500mg/200IU", "600mg/400IU", "600mg/800IU"],
+      "dosageForms": ["Tablet", "Chewable tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "vitamin-d",
+      "genericName": "Vitamin D (Cholecalciferol)",
+      "brandNames": ["D3"],
+      "commonDosages": ["400IU", "1000IU", "2000IU", "5000IU", "50000IU"],
+      "dosageForms": ["Capsule", "Tablet", "Liquid"],
+      "commonSchedules": ["Once daily", "Once weekly"]
+    },
+    {
+      "id": "vitamin-b12",
+      "genericName": "Vitamin B12 (Cyanocobalamin)",
+      "brandNames": ["B12"],
+      "commonDosages": ["100mcg", "500mcg", "1000mcg", "2500mcg"],
+      "dosageForms": ["Tablet", "Sublingual tablet", "Injection"],
+      "commonSchedules": ["Once daily", "Monthly injection"]
+    },
+    {
+      "id": "folic-acid",
+      "genericName": "Folic Acid",
+      "brandNames": ["Folate"],
+      "commonDosages": ["400mcg", "800mcg", "1mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "ferrous-sulfate",
+      "genericName": "Ferrous Sulfate",
+      "brandNames": ["Slow Fe", "Feosol"],
+      "commonDosages": ["325mg", "65mg elemental"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Three times daily"]
+    },
+    {
+      "id": "potassium-chloride",
+      "genericName": "Potassium Chloride",
+      "brandNames": ["K-Dur", "Klor-Con"],
+      "commonDosages": ["10mEq", "20mEq"],
+      "dosageForms": ["Tablet", "Extended-release tablet", "Liquid"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "magnesium-oxide",
+      "genericName": "Magnesium Oxide",
+      "brandNames": ["Mag-Ox"],
+      "commonDosages": ["200mg", "400mg", "500mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "ondansetron",
+      "genericName": "Ondansetron",
+      "brandNames": ["Zofran"],
+      "commonDosages": ["4mg", "8mg"],
+      "dosageForms": ["Tablet", "Orally disintegrating tablet"],
+      "commonSchedules": ["Every 8 hours", "As needed"]
+    },
+    {
+      "id": "promethazine",
+      "genericName": "Promethazine",
+      "brandNames": ["Phenergan"],
+      "commonDosages": ["12.5mg", "25mg", "50mg"],
+      "dosageForms": ["Tablet", "Suppository"],
+      "commonSchedules": ["Every 4-6 hours", "As needed"]
+    },
+    {
+      "id": "metoclopramide",
+      "genericName": "Metoclopramide",
+      "brandNames": ["Reglan"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Before meals", "Four times daily"]
+    },
+    {
+      "id": "prochlorperazine",
+      "genericName": "Prochlorperazine",
+      "brandNames": ["Compazine"],
+      "commonDosages": ["5mg", "10mg", "25mg"],
+      "dosageForms": ["Tablet", "Suppository"],
+      "commonSchedules": ["Three to four times daily", "As needed"]
+    },
+    {
+      "id": "dicyclomine",
+      "genericName": "Dicyclomine",
+      "brandNames": ["Bentyl"],
+      "commonDosages": ["10mg", "20mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Four times daily"]
+    },
+    {
+      "id": "hyoscyamine",
+      "genericName": "Hyoscyamine",
+      "brandNames": ["Levsin"],
+      "commonDosages": ["0.125mg", "0.375mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Every 4 hours", "Every 12 hours", "As needed"]
+    },
+    {
+      "id": "loperamide",
+      "genericName": "Loperamide",
+      "brandNames": ["Imodium"],
+      "commonDosages": ["2mg"],
+      "dosageForms": ["Capsule", "Tablet", "Liquid"],
+      "commonSchedules": ["As needed", "After each loose stool"]
+    },
+    {
+      "id": "polyethylene-glycol",
+      "genericName": "Polyethylene Glycol",
+      "brandNames": ["MiraLAX"],
+      "commonDosages": ["17g"],
+      "dosageForms": ["Powder"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "docusate",
+      "genericName": "Docusate Sodium",
+      "brandNames": ["Colace"],
+      "commonDosages": ["100mg", "250mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "senna",
+      "genericName": "Senna",
+      "brandNames": ["Senokot"],
+      "commonDosages": ["8.6mg", "17.2mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "bisacodyl",
+      "genericName": "Bisacodyl",
+      "brandNames": ["Dulcolax"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet", "Suppository"],
+      "commonSchedules": ["Once daily", "As needed"]
+    },
+    {
+      "id": "lactulose",
+      "genericName": "Lactulose",
+      "brandNames": ["Enulose", "Kristalose"],
+      "commonDosages": ["10g", "20g"],
+      "dosageForms": ["Liquid"],
+      "commonSchedules": ["Once daily", "Two to three times daily"]
+    },
+    {
+      "id": "sucralfate",
+      "genericName": "Sucralfate",
+      "brandNames": ["Carafate"],
+      "commonDosages": ["1g"],
+      "dosageForms": ["Tablet", "Liquid"],
+      "commonSchedules": ["Four times daily", "Before meals and at bedtime"]
+    },
+    {
+      "id": "mesalamine",
+      "genericName": "Mesalamine",
+      "brandNames": ["Asacol", "Lialda", "Pentasa"],
+      "commonDosages": ["400mg", "800mg", "1.2g"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Once daily", "Three times daily"]
+    },
+    {
+      "id": "liothyronine",
+      "genericName": "Liothyronine",
+      "brandNames": ["Cytomel"],
+      "commonDosages": ["5mcg", "25mcg", "50mcg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "methimazole",
+      "genericName": "Methimazole",
+      "brandNames": ["Tapazole"],
+      "commonDosages": ["5mg", "10mg", "15mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Three times daily"]
+    },
+    {
+      "id": "propylthiouracil",
+      "genericName": "Propylthiouracil",
+      "brandNames": ["PTU"],
+      "commonDosages": ["50mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three times daily"]
+    },
+    {
+      "id": "estradiol",
+      "genericName": "Estradiol",
+      "brandNames": ["Estrace", "Vivelle-Dot", "Climara"],
+      "commonDosages": ["0.5mg", "1mg", "2mg", "0.025mg patch", "0.05mg patch", "0.1mg patch"],
+      "dosageForms": ["Tablet", "Patch", "Cream"],
+      "commonSchedules": ["Once daily", "Once or twice weekly patch"]
+    },
+    {
+      "id": "conjugated-estrogens",
+      "genericName": "Conjugated Estrogens",
+      "brandNames": ["Premarin"],
+      "commonDosages": ["0.3mg", "0.45mg", "0.625mg", "0.9mg", "1.25mg"],
+      "dosageForms": ["Tablet", "Cream"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "medroxyprogesterone",
+      "genericName": "Medroxyprogesterone",
+      "brandNames": ["Provera", "Depo-Provera"],
+      "commonDosages": ["2.5mg", "5mg", "10mg", "150mg"],
+      "dosageForms": ["Tablet", "Injection"],
+      "commonSchedules": ["Once daily", "Every 3 months"]
+    },
+    {
+      "id": "progesterone",
+      "genericName": "Progesterone",
+      "brandNames": ["Prometrium"],
+      "commonDosages": ["100mg", "200mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "norethindrone",
+      "genericName": "Norethindrone",
+      "brandNames": ["Aygestin", "Camila"],
+      "commonDosages": ["0.35mg", "5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "testosterone",
+      "genericName": "Testosterone",
+      "brandNames": ["AndroGel", "Testim", "Axiron"],
+      "commonDosages": ["1%", "1.62%", "50mg", "100mg"],
+      "dosageForms": ["Gel", "Injection"],
+      "commonSchedules": ["Once daily", "Every 1-2 weeks"]
+    },
+    {
+      "id": "sildenafil",
+      "genericName": "Sildenafil",
+      "brandNames": ["Viagra", "Revatio"],
+      "commonDosages": ["20mg", "25mg", "50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["As needed", "Three times daily"]
+    },
+    {
+      "id": "tadalafil",
+      "genericName": "Tadalafil",
+      "brandNames": ["Cialis", "Adcirca"],
+      "commonDosages": ["2.5mg", "5mg", "10mg", "20mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "As needed"]
+    },
+    {
+      "id": "tamsulosin",
+      "genericName": "Tamsulosin",
+      "brandNames": ["Flomax"],
+      "commonDosages": ["0.4mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "finasteride",
+      "genericName": "Finasteride",
+      "brandNames": ["Proscar", "Propecia"],
+      "commonDosages": ["1mg", "5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "dutasteride",
+      "genericName": "Dutasteride",
+      "brandNames": ["Avodart"],
+      "commonDosages": ["0.5mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "oxybutynin",
+      "genericName": "Oxybutynin",
+      "brandNames": ["Ditropan"],
+      "commonDosages": ["5mg", "10mg", "15mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet", "Patch"],
+      "commonSchedules": ["Two to three times daily", "Once daily", "Twice weekly patch"]
+    },
+    {
+      "id": "tolterodine",
+      "genericName": "Tolterodine",
+      "brandNames": ["Detrol", "Detrol LA"],
+      "commonDosages": ["1mg", "2mg", "4mg"],
+      "dosageForms": ["Tablet", "Extended-release capsule"],
+      "commonSchedules": ["Twice daily", "Once daily"]
+    },
+    {
+      "id": "solifenacin",
+      "genericName": "Solifenacin",
+      "brandNames": ["Vesicare"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "mirabegron",
+      "genericName": "Mirabegron",
+      "brandNames": ["Myrbetriq"],
+      "commonDosages": ["25mg", "50mg"],
+      "dosageForms": ["Extended-release tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "lithium",
+      "genericName": "Lithium Carbonate",
+      "brandNames": ["Lithobid", "Eskalith"],
+      "commonDosages": ["150mg", "300mg", "450mg", "600mg"],
+      "dosageForms": ["Capsule", "Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Two to three times daily", "Once daily"]
+    },
+    {
+      "id": "buspirone",
+      "genericName": "Buspirone",
+      "brandNames": ["BuSpar"],
+      "commonDosages": ["5mg", "7.5mg", "10mg", "15mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Two to three times daily"]
+    },
+    {
+      "id": "nortriptyline",
+      "genericName": "Nortriptyline",
+      "brandNames": ["Pamelor"],
+      "commonDosages": ["10mg", "25mg", "50mg", "75mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "desipramine",
+      "genericName": "Desipramine",
+      "brandNames": ["Norpramin"],
+      "commonDosages": ["10mg", "25mg", "50mg", "75mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "doxepin",
+      "genericName": "Doxepin",
+      "brandNames": ["Sinequan", "Silenor"],
+      "commonDosages": ["3mg", "6mg", "10mg", "25mg", "50mg", "75mg", "100mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "atomoxetine",
+      "genericName": "Atomoxetine",
+      "brandNames": ["Strattera"],
+      "commonDosages": ["10mg", "18mg", "25mg", "40mg", "60mg", "80mg", "100mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "methylphenidate",
+      "genericName": "Methylphenidate",
+      "brandNames": ["Ritalin", "Concerta", "Focalin"],
+      "commonDosages": ["5mg", "10mg", "18mg", "20mg", "27mg", "36mg", "54mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Two to three times daily", "Once daily"]
+    },
+    {
+      "id": "amphetamine-dextroamphetamine",
+      "genericName": "Amphetamine/Dextroamphetamine",
+      "brandNames": ["Adderall", "Adderall XR"],
+      "commonDosages": ["5mg", "10mg", "15mg", "20mg", "25mg", "30mg"],
+      "dosageForms": ["Tablet", "Extended-release capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "lisdexamfetamine",
+      "genericName": "Lisdexamfetamine",
+      "brandNames": ["Vyvanse"],
+      "commonDosages": ["10mg", "20mg", "30mg", "40mg", "50mg", "60mg", "70mg"],
+      "dosageForms": ["Capsule", "Chewable tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "modafinil",
+      "genericName": "Modafinil",
+      "brandNames": ["Provigil"],
+      "commonDosages": ["100mg", "200mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "sumatriptan",
+      "genericName": "Sumatriptan",
+      "brandNames": ["Imitrex"],
+      "commonDosages": ["25mg", "50mg", "100mg", "6mg"],
+      "dosageForms": ["Tablet", "Nasal spray", "Injection"],
+      "commonSchedules": ["As needed", "At onset of migraine"]
+    },
+    {
+      "id": "rizatriptan",
+      "genericName": "Rizatriptan",
+      "brandNames": ["Maxalt"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet", "Orally disintegrating tablet"],
+      "commonSchedules": ["As needed", "At onset of migraine"]
+    },
+    {
+      "id": "zolmitriptan",
+      "genericName": "Zolmitriptan",
+      "brandNames": ["Zomig"],
+      "commonDosages": ["2.5mg", "5mg"],
+      "dosageForms": ["Tablet", "Nasal spray"],
+      "commonSchedules": ["As needed", "At onset of migraine"]
+    },
+    {
+      "id": "eletriptan",
+      "genericName": "Eletriptan",
+      "brandNames": ["Relpax"],
+      "commonDosages": ["20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["As needed", "At onset of migraine"]
+    },
+    {
+      "id": "donepezil",
+      "genericName": "Donepezil",
+      "brandNames": ["Aricept"],
+      "commonDosages": ["5mg", "10mg", "23mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "memantine",
+      "genericName": "Memantine",
+      "brandNames": ["Namenda"],
+      "commonDosages": ["5mg", "10mg", "14mg", "21mg", "28mg"],
+      "dosageForms": ["Tablet", "Extended-release capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "rivastigmine",
+      "genericName": "Rivastigmine",
+      "brandNames": ["Exelon"],
+      "commonDosages": ["1.5mg", "3mg", "4.5mg", "6mg", "4.6mg/24hr", "9.5mg/24hr", "13.3mg/24hr"],
+      "dosageForms": ["Capsule", "Patch"],
+      "commonSchedules": ["Twice daily", "Once daily patch"]
+    },
+    {
+      "id": "galantamine",
+      "genericName": "Galantamine",
+      "brandNames": ["Razadyne"],
+      "commonDosages": ["4mg", "8mg", "12mg", "16mg", "24mg"],
+      "dosageForms": ["Tablet", "Extended-release capsule"],
+      "commonSchedules": ["Twice daily", "Once daily"]
+    },
+    {
+      "id": "carbidopa-levodopa",
+      "genericName": "Carbidopa/Levodopa",
+      "brandNames": ["Sinemet", "Rytary"],
+      "commonDosages": ["10/100mg", "25/100mg", "25/250mg", "50/200mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet", "Extended-release capsule"],
+      "commonSchedules": ["Three times daily", "Four times daily"]
+    },
+    {
+      "id": "pramipexole",
+      "genericName": "Pramipexole",
+      "brandNames": ["Mirapex"],
+      "commonDosages": ["0.125mg", "0.25mg", "0.5mg", "0.75mg", "1mg", "1.5mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Three times daily", "Once daily"]
+    },
+    {
+      "id": "ropinirole",
+      "genericName": "Ropinirole",
+      "brandNames": ["Requip"],
+      "commonDosages": ["0.25mg", "0.5mg", "1mg", "2mg", "3mg", "4mg", "5mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Three times daily", "Once daily"]
+    },
+    {
+      "id": "latanoprost",
+      "genericName": "Latanoprost",
+      "brandNames": ["Xalatan"],
+      "commonDosages": ["0.005%"],
+      "dosageForms": ["Eye drops"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "timolol-ophthalmic",
+      "genericName": "Timolol (Ophthalmic)",
+      "brandNames": ["Timoptic"],
+      "commonDosages": ["0.25%", "0.5%"],
+      "dosageForms": ["Eye drops"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "brimonidine-ophthalmic",
+      "genericName": "Brimonidine (Ophthalmic)",
+      "brandNames": ["Alphagan"],
+      "commonDosages": ["0.1%", "0.15%", "0.2%"],
+      "dosageForms": ["Eye drops"],
+      "commonSchedules": ["Three times daily"]
+    },
+    {
+      "id": "dorzolamide-timolol",
+      "genericName": "Dorzolamide/Timolol",
+      "brandNames": ["Cosopt"],
+      "commonDosages": ["2%/0.5%"],
+      "dosageForms": ["Eye drops"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "prednisolone-ophthalmic",
+      "genericName": "Prednisolone (Ophthalmic)",
+      "brandNames": ["Pred Forte"],
+      "commonDosages": ["1%"],
+      "dosageForms": ["Eye drops"],
+      "commonSchedules": ["Two to four times daily"]
+    },
+    {
+      "id": "ciprofloxacin-ophthalmic",
+      "genericName": "Ciprofloxacin (Ophthalmic)",
+      "brandNames": ["Ciloxan"],
+      "commonDosages": ["0.3%"],
+      "dosageForms": ["Eye drops"],
+      "commonSchedules": ["Every 2 hours", "Four times daily"]
+    },
+    {
+      "id": "artificial-tears",
+      "genericName": "Artificial Tears",
+      "brandNames": ["Systane", "Refresh", "GenTeal"],
+      "commonDosages": ["Variable"],
+      "dosageForms": ["Eye drops"],
+      "commonSchedules": ["As needed", "Four times daily"]
+    },
+    {
+      "id": "triamcinolone-topical",
+      "genericName": "Triamcinolone (Topical)",
+      "brandNames": ["Kenalog"],
+      "commonDosages": ["0.025%", "0.1%", "0.5%"],
+      "dosageForms": ["Cream", "Ointment"],
+      "commonSchedules": ["Two to four times daily"]
+    },
+    {
+      "id": "hydrocortisone-topical",
+      "genericName": "Hydrocortisone (Topical)",
+      "brandNames": ["Cortaid"],
+      "commonDosages": ["0.5%", "1%", "2.5%"],
+      "dosageForms": ["Cream", "Ointment", "Lotion"],
+      "commonSchedules": ["Two to four times daily"]
+    },
+    {
+      "id": "betamethasone-topical",
+      "genericName": "Betamethasone (Topical)",
+      "brandNames": ["Diprolene", "Luxiq"],
+      "commonDosages": ["0.05%", "0.1%"],
+      "dosageForms": ["Cream", "Ointment", "Lotion", "Foam"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "clobetasol-topical",
+      "genericName": "Clobetasol (Topical)",
+      "brandNames": ["Temovate", "Clobex"],
+      "commonDosages": ["0.05%"],
+      "dosageForms": ["Cream", "Ointment", "Foam", "Solution"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "mupirocin",
+      "genericName": "Mupirocin",
+      "brandNames": ["Bactroban"],
+      "commonDosages": ["2%"],
+      "dosageForms": ["Ointment", "Cream"],
+      "commonSchedules": ["Three times daily"]
+    },
+    {
+      "id": "ketoconazole-topical",
+      "genericName": "Ketoconazole (Topical)",
+      "brandNames": ["Nizoral"],
+      "commonDosages": ["2%"],
+      "dosageForms": ["Cream", "Shampoo"],
+      "commonSchedules": ["Once daily", "Twice weekly shampoo"]
+    },
+    {
+      "id": "clotrimazole-topical",
+      "genericName": "Clotrimazole (Topical)",
+      "brandNames": ["Lotrimin"],
+      "commonDosages": ["1%"],
+      "dosageForms": ["Cream", "Solution"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "terbinafine-topical",
+      "genericName": "Terbinafine (Topical)",
+      "brandNames": ["Lamisil"],
+      "commonDosages": ["1%"],
+      "dosageForms": ["Cream", "Gel", "Spray"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "tacrolimus-topical",
+      "genericName": "Tacrolimus (Topical)",
+      "brandNames": ["Protopic"],
+      "commonDosages": ["0.03%", "0.1%"],
+      "dosageForms": ["Ointment"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "tretinoin-topical",
+      "genericName": "Tretinoin (Topical)",
+      "brandNames": ["Retin-A", "Renova"],
+      "commonDosages": ["0.025%", "0.05%", "0.1%"],
+      "dosageForms": ["Cream", "Gel"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "benzoyl-peroxide",
+      "genericName": "Benzoyl Peroxide",
+      "brandNames": ["Benzac", "PanOxyl"],
+      "commonDosages": ["2.5%", "5%", "10%"],
+      "dosageForms": ["Gel", "Wash", "Cream"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "clindamycin-topical",
+      "genericName": "Clindamycin (Topical)",
+      "brandNames": ["Cleocin T", "Clindagel"],
+      "commonDosages": ["1%"],
+      "dosageForms": ["Gel", "Lotion", "Solution"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "adapalene",
+      "genericName": "Adapalene",
+      "brandNames": ["Differin"],
+      "commonDosages": ["0.1%", "0.3%"],
+      "dosageForms": ["Gel", "Cream"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "lidocaine-topical",
+      "genericName": "Lidocaine (Topical)",
+      "brandNames": ["Lidoderm"],
+      "commonDosages": ["4%", "5%"],
+      "dosageForms": ["Patch", "Cream", "Gel"],
+      "commonSchedules": ["Up to 12 hours on, 12 hours off"]
+    },
+    {
+      "id": "capsaicin-topical",
+      "genericName": "Capsaicin (Topical)",
+      "brandNames": ["Zostrix", "Qutenza"],
+      "commonDosages": ["0.025%", "0.075%", "8%"],
+      "dosageForms": ["Cream", "Patch"],
+      "commonSchedules": ["Three to four times daily"]
+    },
+    {
+      "id": "minoxidil-topical",
+      "genericName": "Minoxidil (Topical)",
+      "brandNames": ["Rogaine"],
+      "commonDosages": ["2%", "5%"],
+      "dosageForms": ["Solution", "Foam"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "epinephrine",
+      "genericName": "Epinephrine",
+      "brandNames": ["EpiPen", "Auvi-Q"],
+      "commonDosages": ["0.15mg", "0.3mg"],
+      "dosageForms": ["Auto-injector"],
+      "commonSchedules": ["As needed for anaphylaxis"]
+    },
+    {
+      "id": "glucagon",
+      "genericName": "Glucagon",
+      "brandNames": ["GlucaGen", "Baqsimi"],
+      "commonDosages": ["1mg", "3mg"],
+      "dosageForms": ["Injection", "Nasal powder"],
+      "commonSchedules": ["As needed for severe hypoglycemia"]
+    },
+    {
+      "id": "naloxone",
+      "genericName": "Naloxone",
+      "brandNames": ["Narcan", "Kloxxado"],
+      "commonDosages": ["2mg", "4mg", "8mg"],
+      "dosageForms": ["Nasal spray", "Injection"],
+      "commonSchedules": ["As needed for opioid overdose"]
+    },
+    {
+      "id": "midodrine",
+      "genericName": "Midodrine",
+      "brandNames": ["ProAmatine"],
+      "commonDosages": ["2.5mg", "5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three times daily", "Upon waking, midday, and afternoon"]
+    },
+    {
+      "id": "fludrocortisone",
+      "genericName": "Fludrocortisone",
+      "brandNames": ["Florinef"],
+      "commonDosages": ["0.1mg", "0.2mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "droxidopa",
+      "genericName": "Droxidopa",
+      "brandNames": ["Northera"],
+      "commonDosages": ["100mg", "200mg", "300mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Three times daily"]
+    },
+    {
+      "id": "pyridostigmine",
+      "genericName": "Pyridostigmine",
+      "brandNames": ["Mestinon"],
+      "commonDosages": ["30mg", "60mg", "180mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet", "Syrup"],
+      "commonSchedules": ["Three times daily", "Every 4-6 hours"]
+    },
+    {
+      "id": "ivabradine",
+      "genericName": "Ivabradine",
+      "brandNames": ["Corlanor"],
+      "commonDosages": ["2.5mg", "5mg", "7.5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "desmopressin",
+      "genericName": "Desmopressin",
+      "brandNames": ["DDAVP", "Stimate"],
+      "commonDosages": ["0.1mg", "0.2mg", "10mcg spray"],
+      "dosageForms": ["Tablet", "Nasal spray"],
+      "commonSchedules": ["Once daily", "At bedtime", "As needed"]
+    },
+    {
+      "id": "sodium-chloride-tablets",
+      "genericName": "Sodium Chloride",
+      "brandNames": ["Salt tablets", "Thermotabs", "Vitassium"],
+      "commonDosages": ["1g", "500mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Two to four times daily", "With meals"]
+    },
+    {
+      "id": "low-dose-naltrexone",
+      "genericName": "Low Dose Naltrexone (LDN)",
+      "brandNames": ["Compounded LDN"],
+      "commonDosages": ["0.5mg", "1mg", "1.5mg", "3mg", "4.5mg"],
+      "dosageForms": ["Capsule", "Liquid"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "coenzyme-q10",
+      "genericName": "Coenzyme Q10 (CoQ10)",
+      "brandNames": ["Ubiquinol", "Ubiquinone"],
+      "commonDosages": ["100mg", "200mg", "300mg", "400mg"],
+      "dosageForms": ["Capsule", "Softgel"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "d-ribose",
+      "genericName": "D-Ribose",
+      "brandNames": ["Corvalen"],
+      "commonDosages": ["5g"],
+      "dosageForms": ["Powder", "Capsule"],
+      "commonSchedules": ["Two to three times daily"]
+    },
+    {
+      "id": "l-carnitine",
+      "genericName": "L-Carnitine",
+      "brandNames": ["Carnitor", "Levocarnitine"],
+      "commonDosages": ["330mg", "500mg", "990mg"],
+      "dosageForms": ["Tablet", "Capsule", "Liquid"],
+      "commonSchedules": ["Two to three times daily"]
+    },
+    {
+      "id": "alpha-lipoic-acid",
+      "genericName": "Alpha Lipoic Acid",
+      "brandNames": ["ALA"],
+      "commonDosages": ["200mg", "300mg", "600mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "nadh",
+      "genericName": "NADH",
+      "brandNames": ["Enada"],
+      "commonDosages": ["5mg", "10mg", "20mg"],
+      "dosageForms": ["Tablet", "Lozenge"],
+      "commonSchedules": ["Once daily", "On empty stomach"]
+    },
+    {
+      "id": "amantadine",
+      "genericName": "Amantadine",
+      "brandNames": ["Symmetrel", "Gocovri"],
+      "commonDosages": ["100mg", "137mg", "274mg"],
+      "dosageForms": ["Capsule", "Tablet", "Extended-release capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "selegiline",
+      "genericName": "Selegiline",
+      "brandNames": ["Eldepryl", "Zelapar", "Emsam"],
+      "commonDosages": ["1.25mg", "5mg", "6mg patch", "9mg patch", "12mg patch"],
+      "dosageForms": ["Tablet", "Orally disintegrating tablet", "Patch"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "rasagiline",
+      "genericName": "Rasagiline",
+      "brandNames": ["Azilect"],
+      "commonDosages": ["0.5mg", "1mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "safinamide",
+      "genericName": "Safinamide",
+      "brandNames": ["Xadago"],
+      "commonDosages": ["50mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "entacapone",
+      "genericName": "Entacapone",
+      "brandNames": ["Comtan"],
+      "commonDosages": ["200mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["With each levodopa dose"]
+    },
+    {
+      "id": "tolcapone",
+      "genericName": "Tolcapone",
+      "brandNames": ["Tasmar"],
+      "commonDosages": ["100mg", "200mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three times daily"]
+    },
+    {
+      "id": "carbidopa-levodopa-entacapone",
+      "genericName": "Carbidopa/Levodopa/Entacapone",
+      "brandNames": ["Stalevo"],
+      "commonDosages": ["12.5/50/200mg", "25/100/200mg", "37.5/150/200mg", "50/200/200mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three to four times daily"]
+    },
+    {
+      "id": "apomorphine",
+      "genericName": "Apomorphine",
+      "brandNames": ["Apokyn", "Kynmobi"],
+      "commonDosages": ["2mg", "3mg", "4mg", "5mg", "10mg", "15mg", "20mg", "25mg", "30mg"],
+      "dosageForms": ["Injection", "Sublingual film"],
+      "commonSchedules": ["As needed for off episodes"]
+    },
+    {
+      "id": "rotigotine",
+      "genericName": "Rotigotine",
+      "brandNames": ["Neupro"],
+      "commonDosages": ["1mg/24hr", "2mg/24hr", "3mg/24hr", "4mg/24hr", "6mg/24hr", "8mg/24hr"],
+      "dosageForms": ["Transdermal patch"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "trihexyphenidyl",
+      "genericName": "Trihexyphenidyl",
+      "brandNames": ["Artane"],
+      "commonDosages": ["2mg", "5mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Three times daily"]
+    },
+    {
+      "id": "benztropine",
+      "genericName": "Benztropine",
+      "brandNames": ["Cogentin"],
+      "commonDosages": ["0.5mg", "1mg", "2mg"],
+      "dosageForms": ["Tablet", "Injection"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "botulinum-toxin-a",
+      "genericName": "Botulinum Toxin A",
+      "brandNames": ["Botox", "Dysport", "Xeomin"],
+      "commonDosages": ["Variable units"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 3 months", "Every 12 weeks"]
+    },
+    {
+      "id": "botulinum-toxin-b",
+      "genericName": "Botulinum Toxin B",
+      "brandNames": ["Myobloc"],
+      "commonDosages": ["Variable units"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 3-4 months"]
+    },
+    {
+      "id": "tetrabenazine",
+      "genericName": "Tetrabenazine",
+      "brandNames": ["Xenazine"],
+      "commonDosages": ["12.5mg", "25mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Two to three times daily"]
+    },
+    {
+      "id": "deutetrabenazine",
+      "genericName": "Deutetrabenazine",
+      "brandNames": ["Austedo"],
+      "commonDosages": ["6mg", "9mg", "12mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "valbenazine",
+      "genericName": "Valbenazine",
+      "brandNames": ["Ingrezza"],
+      "commonDosages": ["40mg", "60mg", "80mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "azathioprine",
+      "genericName": "Azathioprine",
+      "brandNames": ["Imuran", "Azasan"],
+      "commonDosages": ["25mg", "50mg", "75mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "mycophenolate",
+      "genericName": "Mycophenolate Mofetil",
+      "brandNames": ["CellCept", "Myfortic"],
+      "commonDosages": ["250mg", "500mg", "180mg", "360mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "cyclosporine",
+      "genericName": "Cyclosporine",
+      "brandNames": ["Neoral", "Sandimmune", "Gengraf"],
+      "commonDosages": ["25mg", "50mg", "100mg"],
+      "dosageForms": ["Capsule", "Liquid"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "tacrolimus-oral",
+      "genericName": "Tacrolimus (Oral)",
+      "brandNames": ["Prograf", "Envarsus"],
+      "commonDosages": ["0.5mg", "1mg", "5mg"],
+      "dosageForms": ["Capsule", "Extended-release tablet"],
+      "commonSchedules": ["Twice daily", "Once daily"]
+    },
+    {
+      "id": "rituximab",
+      "genericName": "Rituximab",
+      "brandNames": ["Rituxan"],
+      "commonDosages": ["100mg", "500mg", "1000mg"],
+      "dosageForms": ["IV infusion"],
+      "commonSchedules": ["Every 6 months", "As directed"]
+    },
+    {
+      "id": "ivig",
+      "genericName": "Intravenous Immunoglobulin (IVIG)",
+      "brandNames": ["Gamunex", "Gammagard", "Privigen", "Octagam"],
+      "commonDosages": ["Variable - weight based"],
+      "dosageForms": ["IV infusion"],
+      "commonSchedules": ["Every 3-4 weeks", "Monthly"]
+    },
+    {
+      "id": "scig",
+      "genericName": "Subcutaneous Immunoglobulin (SCIG)",
+      "brandNames": ["Hizentra", "Cuvitru", "HyQvia"],
+      "commonDosages": ["Variable - weight based"],
+      "dosageForms": ["Subcutaneous injection"],
+      "commonSchedules": ["Weekly", "Every 2 weeks"]
+    },
+    {
+      "id": "belimumab",
+      "genericName": "Belimumab",
+      "brandNames": ["Benlysta"],
+      "commonDosages": ["200mg", "400mg"],
+      "dosageForms": ["Injection", "IV infusion"],
+      "commonSchedules": ["Weekly", "Every 4 weeks"]
+    },
+    {
+      "id": "anifrolumab",
+      "genericName": "Anifrolumab",
+      "brandNames": ["Saphnelo"],
+      "commonDosages": ["300mg"],
+      "dosageForms": ["IV infusion"],
+      "commonSchedules": ["Every 4 weeks"]
+    },
+    {
+      "id": "voclosporin",
+      "genericName": "Voclosporin",
+      "brandNames": ["Lupkynis"],
+      "commonDosages": ["23.7mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "ustekinumab",
+      "genericName": "Ustekinumab",
+      "brandNames": ["Stelara"],
+      "commonDosages": ["45mg", "90mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 8-12 weeks"]
+    },
+    {
+      "id": "secukinumab",
+      "genericName": "Secukinumab",
+      "brandNames": ["Cosentyx"],
+      "commonDosages": ["150mg", "300mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 4 weeks", "Weekly during loading"]
+    },
+    {
+      "id": "ixekizumab",
+      "genericName": "Ixekizumab",
+      "brandNames": ["Taltz"],
+      "commonDosages": ["80mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 2-4 weeks"]
+    },
+    {
+      "id": "guselkumab",
+      "genericName": "Guselkumab",
+      "brandNames": ["Tremfya"],
+      "commonDosages": ["100mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 8 weeks"]
+    },
+    {
+      "id": "risankizumab",
+      "genericName": "Risankizumab",
+      "brandNames": ["Skyrizi"],
+      "commonDosages": ["150mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 12 weeks"]
+    },
+    {
+      "id": "tofacitinib",
+      "genericName": "Tofacitinib",
+      "brandNames": ["Xeljanz"],
+      "commonDosages": ["5mg", "10mg", "11mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "baricitinib",
+      "genericName": "Baricitinib",
+      "brandNames": ["Olumiant"],
+      "commonDosages": ["1mg", "2mg", "4mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "upadacitinib",
+      "genericName": "Upadacitinib",
+      "brandNames": ["Rinvoq"],
+      "commonDosages": ["15mg", "30mg", "45mg"],
+      "dosageForms": ["Extended-release tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "abatacept",
+      "genericName": "Abatacept",
+      "brandNames": ["Orencia"],
+      "commonDosages": ["125mg", "500mg", "750mg", "1000mg"],
+      "dosageForms": ["Injection", "IV infusion"],
+      "commonSchedules": ["Weekly", "Every 4 weeks"]
+    },
+    {
+      "id": "tocilizumab",
+      "genericName": "Tocilizumab",
+      "brandNames": ["Actemra"],
+      "commonDosages": ["162mg", "Variable IV"],
+      "dosageForms": ["Injection", "IV infusion"],
+      "commonSchedules": ["Weekly", "Every 2 weeks", "Every 4 weeks"]
+    },
+    {
+      "id": "sarilumab",
+      "genericName": "Sarilumab",
+      "brandNames": ["Kevzara"],
+      "commonDosages": ["150mg", "200mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 2 weeks"]
+    },
+    {
+      "id": "infliximab",
+      "genericName": "Infliximab",
+      "brandNames": ["Remicade", "Inflectra", "Renflexis"],
+      "commonDosages": ["Variable - weight based"],
+      "dosageForms": ["IV infusion"],
+      "commonSchedules": ["Every 6-8 weeks"]
+    },
+    {
+      "id": "golimumab",
+      "genericName": "Golimumab",
+      "brandNames": ["Simponi", "Simponi Aria"],
+      "commonDosages": ["50mg", "100mg"],
+      "dosageForms": ["Injection", "IV infusion"],
+      "commonSchedules": ["Monthly", "Every 8 weeks"]
+    },
+    {
+      "id": "certolizumab",
+      "genericName": "Certolizumab Pegol",
+      "brandNames": ["Cimzia"],
+      "commonDosages": ["200mg", "400mg"],
+      "dosageForms": ["Injection"],
+      "commonSchedules": ["Every 2-4 weeks"]
+    },
+    {
+      "id": "apremilast",
+      "genericName": "Apremilast",
+      "brandNames": ["Otezla"],
+      "commonDosages": ["10mg", "20mg", "30mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "amiloride",
+      "genericName": "Amiloride",
+      "brandNames": ["Midamor"],
+      "commonDosages": ["5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "modafinil-armodafinil",
+      "genericName": "Armodafinil",
+      "brandNames": ["Nuvigil"],
+      "commonDosages": ["50mg", "150mg", "200mg", "250mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "pitolisant",
+      "genericName": "Pitolisant",
+      "brandNames": ["Wakix"],
+      "commonDosages": ["4.45mg", "8.9mg", "17.8mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "solriamfetol",
+      "genericName": "Solriamfetol",
+      "brandNames": ["Sunosi"],
+      "commonDosages": ["75mg", "150mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "sodium-oxybate",
+      "genericName": "Sodium Oxybate",
+      "brandNames": ["Xyrem", "Xywav"],
+      "commonDosages": ["2.25g", "3g", "3.75g", "4.5g"],
+      "dosageForms": ["Liquid"],
+      "commonSchedules": ["Twice nightly"]
+    },
+    {
+      "id": "mestinon-timespan",
+      "genericName": "Pyridostigmine Extended-Release",
+      "brandNames": ["Mestinon Timespan"],
+      "commonDosages": ["180mg"],
+      "dosageForms": ["Extended-release tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "neostigmine",
+      "genericName": "Neostigmine",
+      "brandNames": ["Prostigmin"],
+      "commonDosages": ["15mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Every 3-4 hours"]
+    },
+    {
+      "id": "prucalopride",
+      "genericName": "Prucalopride",
+      "brandNames": ["Motegrity"],
+      "commonDosages": ["1mg", "2mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "linaclotide",
+      "genericName": "Linaclotide",
+      "brandNames": ["Linzess"],
+      "commonDosages": ["72mcg", "145mcg", "290mcg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Before first meal"]
+    },
+    {
+      "id": "plecanatide",
+      "genericName": "Plecanatide",
+      "brandNames": ["Trulance"],
+      "commonDosages": ["3mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "lubiprostone",
+      "genericName": "Lubiprostone",
+      "brandNames": ["Amitiza"],
+      "commonDosages": ["8mcg", "24mcg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "collagen-supplements",
+      "genericName": "Collagen Peptides",
+      "brandNames": ["Vital Proteins", "Great Lakes", "Sports Research"],
+      "commonDosages": ["10g", "20g"],
+      "dosageForms": ["Powder", "Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "vitamin-c",
+      "genericName": "Vitamin C (Ascorbic Acid)",
+      "brandNames": ["Ester-C", "Emergen-C"],
+      "commonDosages": ["500mg", "1000mg", "2000mg"],
+      "dosageForms": ["Tablet", "Capsule", "Powder"],
+      "commonSchedules": ["Once daily", "Divided doses"]
+    },
+    {
+      "id": "eculizumab",
+      "genericName": "Eculizumab",
+      "brandNames": ["Soliris"],
+      "commonDosages": ["300mg", "600mg", "900mg"],
+      "dosageForms": ["IV infusion"],
+      "commonSchedules": ["Every 2 weeks"]
+    },
+    {
+      "id": "ravulizumab",
+      "genericName": "Ravulizumab",
+      "brandNames": ["Ultomiris"],
+      "commonDosages": ["Variable - weight based"],
+      "dosageForms": ["IV infusion"],
+      "commonSchedules": ["Every 8 weeks"]
+    },
+    {
+      "id": "efgartigimod",
+      "genericName": "Efgartigimod",
+      "brandNames": ["Vyvgart"],
+      "commonDosages": ["10mg/kg"],
+      "dosageForms": ["IV infusion", "Subcutaneous injection"],
+      "commonSchedules": ["Weekly for 4 weeks, then as needed"]
+    },
+    {
+      "id": "rozanolixizumab",
+      "genericName": "Rozanolixizumab",
+      "brandNames": ["Rystiggo"],
+      "commonDosages": ["420mg"],
+      "dosageForms": ["Subcutaneous injection"],
+      "commonSchedules": ["Weekly for 6 weeks, then as needed"]
+    },
+    {
+      "id": "zilucoplan",
+      "genericName": "Zilucoplan",
+      "brandNames": ["Zilbrysq"],
+      "commonDosages": ["32.4mg"],
+      "dosageForms": ["Subcutaneous injection"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "difelikefalin",
+      "genericName": "Difelikefalin",
+      "brandNames": ["Korsuva"],
+      "commonDosages": ["0.5mcg/kg"],
+      "dosageForms": ["IV injection"],
+      "commonSchedules": ["Three times weekly after dialysis"]
+    },
+    {
+      "id": "cannabidiol",
+      "genericName": "Cannabidiol (CBD)",
+      "brandNames": ["Epidiolex"],
+      "commonDosages": ["2.5mg/kg", "5mg/kg", "10mg/kg"],
+      "dosageForms": ["Oral solution"],
+      "commonSchedules": ["Twice daily"]
+    },
+    {
+      "id": "palmitoylethanolamide",
+      "genericName": "Palmitoylethanolamide (PEA)",
+      "brandNames": ["Normast", "PEA"],
+      "commonDosages": ["300mg", "400mg", "600mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "thiamine-high-dose",
+      "genericName": "Thiamine (High Dose)",
+      "brandNames": ["Vitamin B1"],
+      "commonDosages": ["100mg", "250mg", "500mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "benfotiamine",
+      "genericName": "Benfotiamine",
+      "brandNames": ["Benfotiamine"],
+      "commonDosages": ["150mg", "300mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "acetyl-l-carnitine",
+      "genericName": "Acetyl-L-Carnitine",
+      "brandNames": ["ALCAR"],
+      "commonDosages": ["500mg", "1000mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "creatine",
+      "genericName": "Creatine Monohydrate",
+      "brandNames": ["Creatine"],
+      "commonDosages": ["3g", "5g"],
+      "dosageForms": ["Powder", "Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "phosphatidylcholine",
+      "genericName": "Phosphatidylcholine",
+      "brandNames": ["BodyBio PC"],
+      "commonDosages": ["420mg", "900mg"],
+      "dosageForms": ["Capsule", "Liquid"],
+      "commonSchedules": ["Once daily", "With meals"]
+    },
+    {
+      "id": "nac",
+      "genericName": "N-Acetyl Cysteine (NAC)",
+      "brandNames": ["NAC"],
+      "commonDosages": ["600mg", "1200mg", "1800mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "glutathione",
+      "genericName": "Glutathione",
+      "brandNames": ["Liposomal Glutathione"],
+      "commonDosages": ["250mg", "500mg"],
+      "dosageForms": ["Capsule", "Liposomal liquid"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "methyl-b12",
+      "genericName": "Methylcobalamin",
+      "brandNames": ["Methyl B12"],
+      "commonDosages": ["1000mcg", "2500mcg", "5000mcg"],
+      "dosageForms": ["Sublingual tablet", "Lozenge", "Injection"],
+      "commonSchedules": ["Once daily", "Weekly injection"]
+    },
+    {
+      "id": "methylfolate",
+      "genericName": "L-Methylfolate",
+      "brandNames": ["Deplin", "Enlyte"],
+      "commonDosages": ["7.5mg", "15mg"],
+      "dosageForms": ["Tablet", "Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "pqq",
+      "genericName": "Pyrroloquinoline Quinone (PQQ)",
+      "brandNames": ["PQQ"],
+      "commonDosages": ["10mg", "20mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "quercetin",
+      "genericName": "Quercetin",
+      "brandNames": ["Quercetin"],
+      "commonDosages": ["250mg", "500mg", "1000mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "curcumin",
+      "genericName": "Curcumin",
+      "brandNames": ["Theracurmin", "Meriva", "Longvida"],
+      "commonDosages": ["250mg", "500mg", "1000mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "resveratrol",
+      "genericName": "Resveratrol",
+      "brandNames": ["Resveratrol"],
+      "commonDosages": ["100mg", "250mg", "500mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "omega-3",
+      "genericName": "Omega-3 Fatty Acids (EPA/DHA)",
+      "brandNames": ["Lovaza", "Vascepa", "Nordic Naturals"],
+      "commonDosages": ["1g", "2g", "4g"],
+      "dosageForms": ["Capsule", "Liquid"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "electrolyte-mix",
+      "genericName": "Electrolyte Supplement",
+      "brandNames": ["LMNT", "Liquid IV", "Drip Drop", "Nuun"],
+      "commonDosages": ["1 packet", "1 tablet"],
+      "dosageForms": ["Powder", "Tablet"],
+      "commonSchedules": ["One to three times daily", "As needed"]
+    },
+    {
+      "id": "compression-stockings",
+      "genericName": "Compression Stockings",
+      "brandNames": ["Jobst", "Sigvaris", "CEP"],
+      "commonDosages": ["15-20mmHg", "20-30mmHg", "30-40mmHg"],
+      "dosageForms": ["Knee-high", "Thigh-high", "Waist-high"],
+      "commonSchedules": ["During waking hours", "When upright"]
     }
   ]
 }
