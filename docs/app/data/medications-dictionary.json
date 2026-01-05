@@ -1,0 +1,124 @@
+{
+  "medications": [
+    {
+      "id": "metformin",
+      "genericName": "Metformin",
+      "brandNames": ["Glucophage", "Fortamet", "Glumetza"],
+      "commonDosages": ["500mg", "850mg", "1000mg", "1500mg", "2000mg"],
+      "dosageForms": ["Tablet", "Extended-release tablet"],
+      "commonSchedules": ["Once daily", "Twice daily", "With meals"]
+    },
+    {
+      "id": "lisinopril",
+      "genericName": "Lisinopril",
+      "brandNames": ["Prinivil", "Zestril"],
+      "commonDosages": ["2.5mg", "5mg", "10mg", "20mg", "40mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "atorvastatin",
+      "genericName": "Atorvastatin",
+      "brandNames": ["Lipitor"],
+      "commonDosages": ["10mg", "20mg", "40mg", "80mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "levothyroxine",
+      "genericName": "Levothyroxine",
+      "brandNames": ["Synthroid", "Levoxyl"],
+      "commonDosages": ["25mcg", "50mcg", "75mcg", "100mcg", "125mcg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "On empty stomach"]
+    },
+    {
+      "id": "amlodipine",
+      "genericName": "Amlodipine",
+      "brandNames": ["Norvasc"],
+      "commonDosages": ["2.5mg", "5mg", "10mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "omeprazole",
+      "genericName": "Omeprazole",
+      "brandNames": ["Prilosec"],
+      "commonDosages": ["10mg", "20mg", "40mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily", "Before meals"]
+    },
+    {
+      "id": "gabapentin",
+      "genericName": "Gabapentin",
+      "brandNames": ["Neurontin"],
+      "commonDosages": ["100mg", "300mg", "400mg", "600mg", "800mg"],
+      "dosageForms": ["Capsule", "Tablet"],
+      "commonSchedules": ["Once daily", "Twice daily", "Three times daily"]
+    },
+    {
+      "id": "sertraline",
+      "genericName": "Sertraline",
+      "brandNames": ["Zoloft"],
+      "commonDosages": ["25mg", "50mg", "100mg", "150mg", "200mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily"]
+    },
+    {
+      "id": "aspirin",
+      "genericName": "Aspirin",
+      "brandNames": ["Bayer", "Ecotrin"],
+      "commonDosages": ["81mg", "325mg"],
+      "dosageForms": ["Tablet", "Chewable tablet"],
+      "commonSchedules": ["Once daily", "As needed"]
+    },
+    {
+      "id": "ibuprofen",
+      "genericName": "Ibuprofen",
+      "brandNames": ["Advil", "Motrin"],
+      "commonDosages": ["200mg", "400mg", "600mg", "800mg"],
+      "dosageForms": ["Tablet", "Capsule", "Liquid"],
+      "commonSchedules": ["Every 4-6 hours", "As needed"]
+    },
+    {
+      "id": "acetaminophen",
+      "genericName": "Acetaminophen",
+      "brandNames": ["Tylenol"],
+      "commonDosages": ["325mg", "500mg", "650mg"],
+      "dosageForms": ["Tablet", "Capsule", "Liquid"],
+      "commonSchedules": ["Every 4-6 hours", "As needed"]
+    },
+    {
+      "id": "duloxetine",
+      "genericName": "Duloxetine",
+      "brandNames": ["Cymbalta"],
+      "commonDosages": ["20mg", "30mg", "60mg", "120mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Once daily", "Twice daily"]
+    },
+    {
+      "id": "pregabalin",
+      "genericName": "Pregabalin",
+      "brandNames": ["Lyrica"],
+      "commonDosages": ["25mg", "50mg", "75mg", "100mg", "150mg", "200mg", "300mg"],
+      "dosageForms": ["Capsule"],
+      "commonSchedules": ["Twice daily", "Three times daily"]
+    },
+    {
+      "id": "amitriptyline",
+      "genericName": "Amitriptyline",
+      "brandNames": ["Elavil"],
+      "commonDosages": ["10mg", "25mg", "50mg", "75mg", "100mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "At bedtime"]
+    },
+    {
+      "id": "prednisone",
+      "genericName": "Prednisone",
+      "brandNames": ["Deltasone"],
+      "commonDosages": ["5mg", "10mg", "20mg", "50mg"],
+      "dosageForms": ["Tablet"],
+      "commonSchedules": ["Once daily", "With food", "As directed"]
+    }
+  ]
+}
