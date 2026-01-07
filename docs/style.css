@@ -1,72 +1,474 @@
-/* =====================
-   Clean Text-Only Layout
-===================== */
+/* SEEN Landing Page Styles - Desert Dunes Palette */
+/* Updated: 2026-01-07 */
 
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+:root {
+  --primary: #374151;
+  --primary-hover: #1f2937;
+  --primary-light: rgba(55, 65, 81, 0.08);
+  --accent: #D4A84B;
+  --accent-hover: #C49A3D;
+  --bg: #ffffff;
+  --surface: rgba(212, 168, 75, 0.08);
+  --text-main: #374151;
+  --text-muted: #6b7280;
+  --border-subtle: #e5e5e5;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  padding: 40px 16px;
-  line-height: 1.6;
-  color: #1f2933;
-  background: #ffffff;
-}
-
-.container {
-  max-width: 760px;
-  margin: 0 auto;
-}
-
-    h1, h2, h3 {
-      margin: 0;
-      font-weight: 500;
-      letter-spacing: -0.02em;
-    }
-
-    h1 {
-      font-size: clamp(2.1rem, 3vw, 2.5rem);
-      line-height: 1.1;
-      margin-bottom: 8px;
-    }
-
-    h2 {
-      font-size: 1.25rem;
-      margin-top: 28px;
-      margin-bottom: 8px;
-    }
-/* changed into subhead only header text */
-
-    h3 {
-      font-size: 1.6rem;
-      font-weight: 400;
-      color: #b5b5b5;
-      margin-bottom: 18px;
-      white-space: pre-line;
-    }
-
-p {
-  margin-bottom: 16px;
-  font-size: 16px;
-}
-
-ul {
-  margin: 0 0 16px 20px;
   padding: 0;
 }
 
-li {
-  margin-bottom: 8px;
-  font-size: 16px;
+html {
+  scroll-behavior: smooth;
 }
 
-
-
-.footer {
-  margin-top: 40px;
-  font-size: 10px;
-  color: #4b5563;
+body {
+  font-family: 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-main);
+  line-height: 1.6;
+  background: var(--bg);
 }
 
-.footer a {
-  color: #1f2933;
+h1, h2, h3 {
+  font-family: 'Outfit', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Hero Section */
+.hero {
+  background: var(--bg);
+  color: var(--text-main);
+  padding: 60px 20px 80px;
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-content {
+  flex: 1;
+  text-align: left;
+}
+
+/* Phone Mockup */
+.hero-phones {
+  flex: 0 0 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+}
+
+.phone {
+  position: absolute;
+  background: #1a1a1a;
+  border-radius: 36px;
+  padding: 8px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.phone img {
+  width: 160px;
+  height: auto;
+  border-radius: 28px;
+  display: block;
+}
+
+.phone-center {
+  z-index: 3;
+  transform: scale(1.1);
+}
+
+.phone-left {
+  z-index: 2;
+  transform: translateX(-100px) scale(0.9) rotateY(15deg);
+  opacity: 0.9;
+}
+
+.phone-right {
+  z-index: 2;
+  transform: translateX(100px) scale(0.9) rotateY(-15deg);
+  opacity: 0.9;
+}
+
+.hero-phones:hover .phone-center {
+  transform: scale(1.15);
+}
+
+.hero-phones:hover .phone-left {
+  transform: translateX(-110px) scale(0.92) rotateY(15deg);
+}
+
+.hero-phones:hover .phone-right {
+  transform: translateX(110px) scale(0.92) rotateY(-15deg);
+}
+
+.hero .logo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+  color: var(--primary);
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero p strong {
+  display: block;
+  font-size: 1.2rem;
+  margin: 24px 0;
+  color: var(--text-main);
+}
+
+.hero-cta {
+  margin-top: 32px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #A3431F;
+  background: #A3431F;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(163, 67, 31, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: #8B3A1B;
+  border-color: #8B3A1B;
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(163, 67, 31, 0.4);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-outline {
+  background: transparent;
+  color: #fff;
+}
+
+.btn-outline:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.btn-primary {
+  background: #A3431F;
+  color: #fff;
+  border-color: #A3431F;
+  box-shadow: 0 10px 25px rgba(163, 67, 31, 0.3);
+}
+
+.btn-primary:hover {
+  background: #8B3A1B;
+  border-color: #8B3A1B;
+}
+
+.btn-light {
+  background: #fff;
+  color: var(--primary);
+  border-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.btn-light:hover {
+  background: #fff;
+  border-color: #fff;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Common */
+.section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--text-main);
+  margin-bottom: 50px;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 80px 20px;
+  background: var(--surface);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.step-card {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.step-icon {
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 2.5rem;
+}
+
+.step-card h3 {
+  font-size: 1.25rem;
+  color: var(--text-main);
+  margin-bottom: 12px;
+}
+
+.step-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Who It's For Section */
+.who-its-for {
+  padding: 80px 20px;
+  background: var(--bg);
+}
+
+.who-its-for .section-inner {
+  max-width: 700px;
+}
+
+.who-its-for ul {
+  list-style: none;
+  margin: 0 0 24px 0;
+}
+
+.who-its-for li {
+  padding: 12px 0 12px 32px;
+  position: relative;
+  font-size: 1.05rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.who-its-for li:last-child {
+  border-bottom: none;
+}
+
+.who-its-for li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.who-its-for .highlight {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin-top: 30px;
+}
+
+/* Use SEEN Section */
+.use-seen {
+  padding: 80px 20px;
+  background: var(--surface);
+}
+
+.use-seen .section-inner {
+  max-width: 700px;
+}
+
+.install-instructions {
+  background: var(--bg);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.inline-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  margin: 0 2px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+footer {
+  padding: 40px 20px;
+  background: #1f2937;
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
   text-decoration: underline;
+}
+
+footer .disclaimer {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero-inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-phones {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 320px;
+  }
+
+  .phone img {
+    width: 130px;
+  }
+
+  .phone-left {
+    transform: translateX(-80px) scale(0.85) rotateY(15deg);
+  }
+
+  .phone-right {
+    transform: translateX(80px) scale(0.85) rotateY(-15deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 16px 60px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .step-card {
+    padding: 20px;
+    background: var(--bg);
+    border-radius: var(--radius-md);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .how-it-works,
+  .who-its-for,
+  .use-seen,
+  .cta-section {
+    padding: 50px 16px;
+  }
+
+  .cta-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
 }

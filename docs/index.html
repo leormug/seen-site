@@ -1,193 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Updated: 2026-01-03 -->
+  <!-- Updated: 2026-01-07 - Nexus-style redesign -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SEEN</title>
+  <title>SEEN - Be heard. Be believed.</title>
   <link rel="icon" type="image/png" href="./favicon.png" />
   <link rel="manifest" href="./manifest.json" />
-<link rel="stylesheet" href="./style.css" />
-  <style>
-    :root {
-      --bg: #f3f6fc;
-      --surface: #ffffff;
-      --text-main: #0f1b33;
-      --text-muted: #5f6b7a;
-      --accent: rgba(166, 55, 11, 1);
-      --accent-hover: rgba(130, 40, 5, 1);
-      --border-subtle: #dce3ee;
-      --radius-lg: 20px;
-      
-    }
-
-    * { box-sizing: border-box; }
-
-    html, body {
-      min-height: 100%;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      min-height: 100dvh;
-      background: var(--bg);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      color: var(--text-main);
-      line-height: 1.6;
-      padding: 32px 16px 40px;
-      overflow-x: hidden;
-    }
-
-    .page {
-      width: 100%;
-      max-width: 800px;
-      background: var(--surface);
-      border-radius: var(--radius-lg);
-      padding: 28px 24px 24px;
-      border: 1px solid rgba(180, 195, 215, 0.35);
-      margin: 0 auto;
-    }
-
-    @media (max-width: 640px) {
-      .page {
-        padding: 22px 18px 20px;
-        border-radius: 16px;
-      }
-    }
-
-    .logo-wrap {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-
-    .logo-wrap img {
-      height: 60px;
-      width: auto;
-      display: block;
-    }
-
-    p { margin: 8px 0; font-size: 0.98rem; color: #0f172a; }
-
-    ul { margin: 8px 0 0 1.1rem; padding: 0; color: #0f172a; font-size: 0.98rem; }
-
-    li { margin-bottom: 6px; }
-
-    .hero {
-      border-bottom: 1px solid var(--border-subtle);
-      padding-bottom: 18px;
-      margin-bottom: 12px;
-    }
-
-    .hero h2 { margin-top: 14px; color: var(--accent); font-weight: 600; }
-
-    .section {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border-subtle);
-      margin: 0;
-    }
-
-    .section:last-of-type {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-       .buttons {
-      margin: 18px 0 6px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 24px;
-    }
-
-    .buttons a,
-    .buttons button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px 22px;
-      border-radius: 999px;
-      font-size: 0.95rem;
-      font-weight: 500;
-      text-decoration: none;
-      cursor: pointer;
-      border: 1px solid var(--accent);
-      background: var(--accent);
-      color: #ffffff;
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.24);
-      transition:
-        background-color 0.16s ease,
-        color 0.16s ease,
-        transform 0.08s ease,
-        box-shadow 0.16s ease;
-      white-space: nowrap;
-    }
-
-    .buttons a:hover,
-    .buttons button:hover {
-      background: var(--accent-hover);
-    }
-
-    .buttons a:active,
-    .buttons button:active {
-      transform: translateY(1px);
-      box-shadow: none;
-    }
-
-.inline-icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.2em;
-  margin-right: 0.2em;
-}
-
-
-    .tiny { font-size: 0.76rem; margin-top: 6px; color: var(--text-muted); }
-
-    footer {
-      margin-top: 20px;
-      padding-top: 12px;
-      border-top: 1px solid var(--border-subtle);
-      font-size: 10pt;
-      color: var(--text-muted);
-      line-height: 1.4;
-    }
-
-    footer a { color: var(--accent); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <div class="page">
-
-    <div class="logo-wrap">
-      <img src="assets/seen-logo.png" alt="SEEN logo">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <img src="assets/seen-logo.png" alt="SEEN logo" class="logo">
+        <h1> Stop being dismissed. Start being heard.</h1>
+         
+         <h2>Finally get the care you deserve—your doctor fully engaged, actually listening.</h2>
+         <br>
+         <p>Tired of doctors who don't listen? Been told "it's all in your head" one too many times? Always forget to mention what matters most?</p>
+         <p><strong>There's something that changes everything.</strong></p>
+         <p>Walk into appointments with a printed summary that makes doctors sit up and pay attention. Your timeline, symptoms, treatments, and why you're there—formatted so they can scan it in under a minute.</p>
+        <div class="hero-cta">
+          <a href="app/?v=1.0.0" class="btn">Open SEEN</a>
+        </div>
+      </div>
+      <div class="hero-phones">
+        <div class="phone phone-left">
+          <img src="assets/screenshot-3.jpeg" alt="Medical History screen">
+        </div>
+        <div class="phone phone-center">
+          <img src="assets/screenshot-1.jpeg" alt="Your Story screen">
+        </div>
+        <div class="phone phone-right">
+          <img src="assets/Screenshot-2.jpeg" alt="Diagnoses screen">
+        </div>
+      </div>
     </div>
+  </section>
 
-    <section class="hero">
-      <h1>SEEN: Be heard. Be believed.</h1>
-      <p>
-        Tired of doctors who don't listen?<br>
-        Been told "it's all in your head" one too many times?<br>
-        Always forget to mention what matters most?
-      </p>
-      <p><strong>There's something that changes everything.</strong></p>
-      <p>
-        Walk into appointments with a printed summary that makes doctors sit up and pay attention. It sounds
-        simple—but it's transformative.
-      </p>
-      <p>
-        Hand your doctor a clear, organized summary before the appointment starts. Your timeline, symptoms,
-        treatments, and why you're there—formatted so that they can scan it in under a minute. Easy to read, impossible to ignore.
-      </p>
-    </section>
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <div class="section-inner">
+      <h2 class="section-title">How SEEN Works</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-icon">📝</div>
+          <h3>Fill the Form</h3>
+          <p>Answer guided questions about your medical history, symptoms, and what brought you here.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-icon">🖨️</div>
+          <h3>Print Summary</h3>
+          <p>Get a clean, professional summary formatted for doctors to scan quickly.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-icon">👨‍⚕️</div>
+          <h3>Hand It Over</h3>
+          <p>Present your summary before the appointment begins. Easy to read, impossible to ignore.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="section">
-      <h2>Who It's For</h2>
+  <!-- Who It's For Section -->
+  <section class="who-its-for">
+    <div class="section-inner">
+      <h2 class="section-title">Who It's For</h2>
       <ul>
         <li>People with complex conditions doctors don't understand</li>
         <li>Anyone who's struggled for years to get diagnosed</li>
@@ -195,27 +77,42 @@
         <li>Those whose appointments always feel rushed</li>
         <li>Anyone tired of not being heard</li>
       </ul>
-      <p><strong>SEEN is for people who deserve better care.</strong></p>
-    </section>
+      <p class="highlight">SEEN is for people who deserve better care.</p>
+    </div>
+  </section>
 
-    <section class="section">
-      <h2>Use SEEN like an app</h2>
-
-     
-
-      <p>To install like an app: After clicking the open button, click <strong>Share <img class="inline-icon" src="assets/share-icon.svg" alt="Share icon"> → Add to Home Screen</strong> on iPhone/iPad, <strong>Menu → Install App <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> / Add to Home Screen</strong> on Android/Chrome, or <strong>Install <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> / Menu (⋮) → Install App</strong> on desktop Chrome/Edge. A SEEN icon will be added to your home screen or apps list.</p>
-       <div class="buttons">
-        <a href="https://leormug.github.io/seen-site/app/?v=0.6.0">Open SEEN</a>
+  <!-- Use SEEN Section -->
+  <section class="use-seen">
+    <div class="section-inner">
+      <h2 class="section-title">Use SEEN Like an App</h2>
+      <div class="install-instructions">
+        <strong>Install on your device:</strong> After opening SEEN, click
+        <strong>Share <img class="inline-icon" src="assets/share-icon.svg" alt="Share icon"> → Add to Home Screen</strong> on iPhone/iPad,
+        <strong>Menu → Install App <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> / Add to Home Screen</strong> on Android/Chrome, or
+        <strong>Install <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> / Menu (⋮) → Install App</strong> on desktop Chrome/Edge.
       </div>
-    </section>
+      <div class="cta-buttons">
+        <a href="app/?v=1.0.0" class="btn btn-primary">Open SEEN</a>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-      Created by patients, for patients.<br>
-      Questions or feedback? <a href="mailto:help.seen.app@gmail.com">help.seen.app@gmail.com</a><br>
-      © <span id="currentYear"></span> SEEN. All rights reserved.<br>
-      SEEN is a patient communication tool and does not provide medical advice.
-    </footer>
-  </div>
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="section-inner">
+      <h2>Ready to be heard?</h2>
+      <p>Create your medical summary in minutes—free and private.</p>
+      <a href="app/?v=1.0.0" class="btn btn-light">Start Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>Created by patients, for patients.</div>
+    <div>Questions or feedback? <a href="mailto:help.seen.app@gmail.com">help.seen.app@gmail.com</a></div>
+    <div>© <span id="currentYear"></span> SEEN. All rights reserved.</div>
+    <div class="disclaimer">SEEN is a patient communication tool and does not provide medical advice.</div>
+  </footer>
 
   <!-- PWA Install Script -->
   <script>
