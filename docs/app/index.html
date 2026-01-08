@@ -1,1 +1,69 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="SEEN"/><link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png?v=6"/><link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png?v=6"/><link rel="icon" type="image/png" href="./favicon.png?v=6"/><link rel="apple-touch-icon" href="./apple-touch-icon-square.png"/><link rel="manifest" href="./manifest.json"/><meta name="theme-color" content="#111827"/><title>SEEN</title><meta name="apple-mobile-web-app-title" content="SEEN"/><script>"minimal"===new URLSearchParams(window.location.search).get("mode")&&(sessionStorage.setItem("skipServiceWorker","true"),"serviceWorker"in navigator&&navigator.serviceWorker.getRegistrations().then((e=>{const r=e.map((e=>e.unregister()));return Promise.all(r)})).then((()=>{if("caches"in window)return caches.keys().then((e=>Promise.all(e.map((e=>caches.delete(e))))))})).then((()=>{sessionStorage.getItem("minimalModeReloaded")||(sessionStorage.setItem("minimalModeReloaded","true"),window.location.reload(!0))})))</script><script defer="defer" src="./static/js/main.227e33e0.js"></script><link href="./static/css/main.4422e81c.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SEEN" />
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https://apis.google.com https://*.firebaseapp.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' https://fonts.gstatic.com;
+      img-src 'self' data: blob: https:;
+      connect-src 'self' https://*.firebaseio.com https://*.googleapis.com https://*.firebaseapp.com wss://*.firebaseio.com https://firestore.googleapis.com https://identitytoolkit.googleapis.com;
+      frame-src 'self' https://accounts.google.com https://*.firebaseapp.com;
+      frame-ancestors 'none';
+      base-uri 'self';
+    ">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png?v=6" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png?v=6" />
+    <link rel="icon" type="image/png" href="./favicon.png?v=6" />
+
+    <link rel="apple-touch-icon" href="./apple-touch-icon-square.png" />
+    <link rel="manifest" href="./manifest.json" />
+
+    <meta name="theme-color" content="#111827" />
+    <title>SEEN</title>
+    <meta name="apple-mobile-web-app-title" content="SEEN" />
+
+    <!-- Unregister service workers immediately if in minimal mode -->
+    <script>
+      (function() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('mode') === 'minimal') {
+          // Set flag in sessionStorage to prevent SW registration
+          sessionStorage.setItem('skipServiceWorker', 'true');
+
+          if ('serviceWorker' in navigator) {
+            // Unregister all service workers synchronously
+            navigator.serviceWorker.getRegistrations().then(registrations => {
+              const promises = registrations.map(reg => reg.unregister());
+              return Promise.all(promises);
+            }).then(() => {
+              // Clear all caches
+              if ('caches' in window) {
+                return caches.keys().then(names => {
+                  return Promise.all(names.map(name => caches.delete(name)));
+                });
+              }
+            }).then(() => {
+              // Force a hard reload if we just unregistered/cleared (only once)
+              if (!sessionStorage.getItem('minimalModeReloaded')) {
+                sessionStorage.setItem('minimalModeReloaded', 'true');
+                window.location.reload(true);
+              }
+            });
+          }
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-B-MRTDHk.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/firebase-eh2D1ATn.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-bJxCZHYa.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
