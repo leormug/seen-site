@@ -250,7 +250,7 @@ h1, h2, h3 {
 /* How It Works Section */
 .how-it-works {
   padding: 80px 20px;
-  background: var(--surface);
+  background: var(--bg);
 }
 
 .steps-grid {
@@ -290,7 +290,7 @@ h1, h2, h3 {
 /* Who It's For Section */
 .who-its-for {
   padding: 80px 20px;
-  background: var(--bg);
+  background: var(--surface);
 }
 
 .who-its-for .section-inner {
@@ -306,15 +306,10 @@ h1, h2, h3 {
   padding: 12px 0 12px 32px;
   position: relative;
   font-size: 1.05rem;
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.who-its-for li:last-child {
-  border-bottom: none;
 }
 
 .who-its-for li::before {
-  content: "✓";
+  content: "•";
   position: absolute;
   left: 0;
   color: var(--accent);
