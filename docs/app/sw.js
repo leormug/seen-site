@@ -1,29 +1,22 @@
 /* public/sw.js */
-const VERSION = 'v0.6.1-20260103-1600';
+const VERSION = 'v1.1.0-20260108';
 const CACHE_NAME = `app-cache-${VERSION}`;
-const CORE = ['/', '/index.html']; // bootstrap fallback
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     (async () => {
       const cache = await caches.open(CACHE_NAME);
-      const toCache = new Set(CORE);
+
+      // Get the base path from the service worker's location
+      const base = self.location.pathname.substring(0, self.location.pathname.lastIndexOf('/') + 1);
 
       try {
-        // Precache CRA build assets
-        const res = await fetch('/asset-manifest.json', { cache: 'no-store' });
-        if (res.ok) {
-          const manifest = await res.json();
-          const files = Object.values(manifest.files || {});
-          for (const url of files) {
-            if (typeof url === 'string' && !url.endsWith('.map')) toCache.add(url);
-          }
-        }
-      } catch (_) {
-        // ignore offline during install; CORE still caches
+        // Cache the index.html at minimum
+        await cache.add(base + 'index.html');
+      } catch (err) {
+        console.warn('Failed to precache index.html:', err);
       }
 
-      await cache.addAll(Array.from(toCache));
       self.skipWaiting();
     })()
   );
@@ -59,7 +52,8 @@ self.addEventListener('fetch', (event) => {
           return fresh;
         } catch {
           const cache = await caches.open(CACHE_NAME);
-          const cached = await cache.match('/index.html');
+          // Try to match any cached index.html
+          const cached = await cache.match(request) || await cache.match('index.html');
           return cached || Response.error();
         }
       })()
