@@ -1,7 +1,7 @@
 // public/service-worker.js
 // Minimal, no-op service worker for PWA installability.
 // Does NOT cache or send any data.
-// Version: 20260108174447
+// Version: 20260109111634
 
 self.addEventListener('install', () => {
   // Activate immediately
