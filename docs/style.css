@@ -52,7 +52,7 @@ h1, h2, h3 {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
 }
 
 .hero-content {
@@ -62,7 +62,7 @@ h1, h2, h3 {
 
 /* Hero Image */
 .hero-image {
-  flex: 0 0 500px;
+  flex: 0 0 450px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,9 +70,9 @@ h1, h2, h3 {
 }
 
 .hero-image img {
-  width: 130%;
-  height: 450px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -162,25 +162,30 @@ h1, h2, h3 {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 24px;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
   color: var(--primary);
+  line-height: 1.1;
+}
+
+.hero h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: var(--text-main);
+  line-height: 1.3;
 }
 
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--text-muted);
-  margin-bottom: 16px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 14px;
+  line-height: 1.6;
 }
 
-.hero p strong {
-  display: block;
-  font-size: 1.2rem;
-  margin: 24px 0;
+.hero p b {
   color: var(--text-main);
+  font-size: 1.1rem;
 }
 
 .hero-cta {
@@ -338,6 +343,136 @@ h1, h2, h3 {
   font-weight: 500;
   color: var(--accent);
   margin-top: 30px;
+}
+
+/* Why It Works Section */
+.why-it-works {
+  padding: 80px 20px;
+  background: var(--surface);
+}
+
+.why-it-works .section-inner {
+  max-width: 700px;
+}
+
+.why-it-works p {
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.why-it-works ul {
+  list-style: none;
+  margin: 24px 0;
+}
+
+.why-it-works li {
+  padding: 8px 0 8px 32px;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.why-it-works li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.why-it-works .highlight {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--text-main);
+  text-align: center;
+}
+
+/* Pricing Section */
+.pricing {
+  padding: 80px 20px;
+  background: var(--bg);
+}
+
+.pricing .section-inner {
+  max-width: 600px;
+}
+
+.pricing-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  text-align: center;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+.pricing-features {
+  list-style: none;
+  margin: 24px 0;
+  text-align: left;
+}
+
+.pricing-features li {
+  padding: 10px 0 10px 32px;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.pricing-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.pricing-note {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin: 24px 0;
+  font-style: italic;
+}
+
+.pricing-card .cta-buttons {
+  margin-top: 24px;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 80px 20px;
+  background: var(--surface);
+}
+
+.faq .section-inner {
+  max-width: 800px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.faq-item {
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.faq-item p {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.7;
 }
 
 /* Use SEEN Section */
