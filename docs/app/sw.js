@@ -1,5 +1,5 @@
 /* public/sw.js */
-const VERSION = 'v1.1.0-20260108';
+const VERSION = 'v1.1.0-20260109';
 const CACHE_NAME = `app-cache-${VERSION}`;
 
 self.addEventListener('install', (event) => {
