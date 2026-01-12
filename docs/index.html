@@ -30,7 +30,7 @@
         </div>
         <div class="install-instructions">
           <p><strong>Want to install SEEN on your device?</strong></p>
-          <p><span id="installPrompt" style="display: none;">Click <button id="installButton" style="background: none; border: none; padding: 0; font: inherit; color: inherit; cursor: pointer; text-decoration: underline; font-weight: bold;">📥 Install App</button>, or </span>After opening SEEN, look for <strong>"Install App"</strong> <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> in your browser. On iOS, tap <strong><img class="inline-icon" src="assets/share-icon.svg" alt="Share icon"></strong> then <strong>"Add to Home Screen"</strong>.</p>
+          <p>After opening SEEN, look for <strong>"Install App"</strong> <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> in your browser. On iOS, tap <strong><img class="inline-icon" src="assets/share-icon.svg" alt="Share icon"></strong> then <strong>"Add to Home Screen"</strong>.</p>
         </div>
         <p class="early-access-note">*We're in early access and would love your feedback!</p>
       </div>
@@ -165,34 +165,11 @@
     <div class="disclaimer">SEEN is a patient communication tool and does not provide medical advice.</div>
   </footer>
 
-  <!-- PWA Install Script -->
+  <!-- Year Script -->
   <script>
-    const installButton = document.getElementById("installButton");
-    const installPrompt = document.getElementById("installPrompt");
     const yearSpan = document.getElementById("currentYear");
-    let deferredPrompt;
-
     if (yearSpan) {
       yearSpan.textContent = new Date().getFullYear();
-    }
-
-    window.addEventListener("beforeinstallprompt", (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
-      if (installPrompt) {
-        installPrompt.style.display = "inline";
-      }
-    });
-
-    if (installButton) {
-      installButton.addEventListener("click", () => {
-        if (!deferredPrompt) return;
-        deferredPrompt.prompt();
-        deferredPrompt = null;
-        if (installPrompt) {
-          installPrompt.style.display = "none";
-        }
-      });
     }
   </script>
 </body>
