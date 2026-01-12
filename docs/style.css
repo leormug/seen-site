@@ -265,12 +265,12 @@ h1, h2, h3 {
   text-align: center;
   font-size: 2rem;
   color: var(--text-main);
-  margin-bottom: 50px;
+  margin-bottom: 36px;
 }
 
 /* How It Works Section */
 .how-it-works {
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: var(--bg);
 }
 
@@ -310,7 +310,7 @@ h1, h2, h3 {
 
 /* Who It's For Section */
 .who-its-for {
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: var(--surface);
 }
 
@@ -347,7 +347,7 @@ h1, h2, h3 {
 
 /* Why It Works Section */
 .why-it-works {
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: var(--surface);
 }
 
@@ -389,7 +389,7 @@ h1, h2, h3 {
 
 /* Pricing Section */
 .pricing {
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: var(--bg);
 }
 
@@ -445,7 +445,7 @@ h1, h2, h3 {
 
 /* FAQ Section */
 .faq {
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: var(--bg);
 }
 
@@ -477,7 +477,7 @@ h1, h2, h3 {
 
 /* Use SEEN Section */
 .use-seen {
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
   text-align: center;
   color: #fff;
