@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Updated: 2026-01-07 - Nexus-style redesign -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEEN: Be heard. Be believed.</title>
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+  <link rel="manifest" href="./manifest.json" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <img src="assets/seen-logo.png" alt="SEEN logo" class="logo">
+        <h1>Stop being dismissed. Start being heard.</h1>
+
+        <h2>Finally get the care you deserve—your doctor fully engaged, actually listening.</h2>
+
+        <p><b>SEEN is a simple health summary tool—but it transforms how doctors see you.</b></p>
+
+        <p>Print it out and walk in—doctors will sit up and pay attention. Everything they need to understand your story, formatted so they get the full picture in under a minute.</p>
+        <div class="hero-cta">
+          <a href="app/?v=1.0.0" class="btn">Try SEEN Free</a>
+        </div>
+        <div class="install-instructions">
+          <p><strong>Want to install SEEN on your device?</strong></p>
+          <p>After opening SEEN, look for <strong>"Install App"</strong> <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> in your browser, or on iOS, tap <strong><img class="inline-icon" src="assets/share-icon.svg" alt="Share icon"></strong> then <strong>"Add to Home Screen"</strong>.</p>
+        </div>
+        <p class="early-access-note">*We're in early access and would love your feedback!</p>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/doctor-patient-transparent-bg.jpg" alt="Doctor and patient reviewing health summary together" loading="eager" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div class="hero-image-fallback" style="display: none; padding: 2rem; text-align: center; color: #666;">
+          Doctor and patient reviewing health summary together
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who It's For Section -->
+  <section class="who-its-for">
+    <div class="section-inner">
+      <h2 class="section-title">Who It's For</h2>
+      <ul>
+        <li>People with complex conditions doctors don't understand</li>
+        <li>Anyone who's struggled to get diagnosed</li>
+        <li>Patients who aren't listened to or taken seriously</li>
+        <li>People who see multiple specialists</li>
+        <li>Those whose appointments always feel rushed</li>
+      </ul>
+      <p class="highlight">SEEN is for people who deserve better care.</p>
+    </div>
+  </section>
+
+<!-- How It Works Section -->
+  <section class="how-it-works">
+    <div class="section-inner">
+      <h2 class="section-title">How It Works</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-icon">📝</div>
+          <h3>Enter your info</h3>
+          <p>Tell your story once. SEEN organizes your timeline, symptoms, treatments, and current concerns into a clear format.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-icon">🖨️</div>
+          <h3>Print and bring</h3>
+          <p>Walk into your appointment with a professional summary your doctor can reference throughout your visit.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-icon">✨</div>
+          <h3>Watch what happens</h3>
+          <p>Your doctor gets the full picture immediately. No more rushing to explain. No more being dismissed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why It Works Section -->
+  <section class="why-it-works">
+    <div class="section-inner">
+      <h2 class="section-title">Why It Works</h2>
+    
+      <p>You know that feeling when your doctor is typing while you’re talking? Or flipping through your chart instead of looking at you?</p>
+       <p> Sometimes they’re overwhelmed. Sometimes they’re just not listening.</p>
+       <p> Either way, SEEN changes the dynamic. Walk in with your summary and suddenly you have their attention—and control of the conversation.</p>
+    </div>
+  </section>
+
+  <!-- Simple Pricing Section -->
+  <!-- COLLAPSED FOR NOW
+  <section class="pricing">
+    <div class="section-inner">
+      <h2 class="section-title">Simple Pricing That Makes Sense</h2>
+      <div class="pricing-card">
+        <div class="price">$39 one-time purchase</div>
+        <ul class="pricing-features">
+          <li>Lifetime access to your health summary</li>
+          <li>Update it as often as you need</li>
+          <li>Print unlimited copies</li>
+          <li>No subscription, no recurring charges</li>
+        </ul>
+        <p class="pricing-note">Can't afford $39 right now? Pay what you can. We mean it.</p>
+        <div class="cta-buttons">
+          <a href="app/?v=1.0.0" class="btn btn-primary">Open SEEN</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <div class="section-inner">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>Does this work for any condition?</h3>
+          <p>Yes. SEEN works for anyone with a complex medical history—chronic illness, rare disease, multiple conditions, or just a long health journey that's hard to explain quickly.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How is my data protected?</h3>
+          <p>Your data belongs to you and only you can access it. SEEN stores your information securely on your device with industry-standard encryption. As a personal health record (PHR) app, you’re in complete control—you enter and manage your own information, and we never share it with anyone.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do I need to be tech-savvy?</h3>
+          <p>Not at all. If you can fill out a form online, you can use SEEN. It's designed to be simple and straightforward.</p>
+        </div>
+        <!-- COLLAPSED FOR NOW
+        <div class="faq-item">
+          <h3>What if I can't afford it?</h3>
+          <p>Use our sliding scale—pay what you can, even if that's $1. We built this to help people, not to be another barrier to care.</p>
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Use SEEN Section -->
+  <section class="use-seen">
+    <div class="section-inner">
+      <h2 class="section-title">Ready to be heard?</h2>
+      <div class="cta-buttons">
+        <a href="app/?v=1.0.0" class="btn btn-primary">Try SEEN Free</a>
+      </div>
+      <div class="install-instructions">
+        <p><strong>Want to install SEEN on your device?</strong></p>
+        <p>After opening SEEN, look for <strong>"Install App"</strong> <img class="inline-icon" src="assets/install-icon.png" alt="Install icon"> in your browser, or on iOS, tap <strong><img class="inline-icon" src="assets/share-icon.svg" alt="Share icon"></strong> then <strong>"Add to Home Screen"</strong>.</p>
+      </div>
+      <p class="early-access-note">*We're in early access and would love your feedback!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>Created by patients, for patients.</div>
+    <div>Questions or feedback? <a href="mailto:help.seen.app@gmail.com">help.seen.app@gmail.com</a></div>
+    <div>© <span id="currentYear"></span> SEEN. All rights reserved.</div>
+    <div class="disclaimer">SEEN is a patient communication tool and does not provide medical advice.</div>
+  </footer>
+
+  <!-- PWA Install Script -->
+  <script>
+    const installButton = document.getElementById("installButton");
+    const yearSpan = document.getElementById("currentYear");
+    let deferredPrompt;
+
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (installButton) {
+        installButton.style.display = "inline-flex";
+      }
+    });
+
+    if (installButton) {
+      installButton.addEventListener("click", () => {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        deferredPrompt = null;
+        installButton.style.display = "none";
+      });
+    }
+  </script>
+</body>
+</html>
