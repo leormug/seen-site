@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEEN Combined Printout</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #e5e7eb;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .combined-pages {
+      background: white;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 600px;
+      position: relative;
+    }
+
+    .page {
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Crop page 1: show only top 1405px */
+    .page.page-1 {
+      height: 1405px;
+    }
+
+    .page.page-1 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      position: relative;
+    }
+
+    /* Crop page 2: hide top 146px */
+    .page.page-2 {
+      overflow: hidden;
+    }
+
+    .page.page-2 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: -146px;
+    }
+  </style>
+</head>
+<body>
+  <div class="combined-pages">
+    <div class="page page-1">
+      <img src="./printout-sample-1.png" alt="Page 1">
+    </div>
+    <div class="page page-2">
+      <img src="./printout-sample-2.png" alt="Page 2">
+    </div>
+  </div>
+</body>
+</html>
