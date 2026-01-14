@@ -67,6 +67,7 @@ h1, h2, h3 {
   align-items: flex-start;
   justify-content: center;
   overflow: hidden;
+  margin-top: 40px;
 }
 
 .hero-image img {
