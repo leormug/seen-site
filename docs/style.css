@@ -620,6 +620,10 @@ footer .disclaimer {
     padding: 40px 20px;
   }
 
+  .hero .logo {
+    display: none;
+  }
+
   .hero h1 {
     font-size: 1.85rem;
   }
