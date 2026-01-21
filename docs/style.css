@@ -587,6 +587,10 @@ footer .disclaimer {
     min-height: auto;
   }
 
+  .hero .logo {
+    display: none;
+  }
+
   .hero-inner {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -618,10 +622,6 @@ footer .disclaimer {
 @media (max-width: 768px) {
   .hero {
     padding: 40px 20px;
-  }
-
-  .hero .logo {
-    display: none;
   }
 
   .hero h1 {
